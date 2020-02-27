@@ -1,5 +1,9 @@
 # VEAF Free Georgia Mission
 
+!! Note !!
+
+SimpleSlotBlock should be installed in DCS/Scripts/Hooks folder (https://github.com/ciribob/DCS-SimpleSlotBlock).
+
 ## Abstract
 
 Georgia has been invaded by Russia.
@@ -10,32 +14,53 @@ The USA will free Georgia.
 
 When the campain begin...
 
+![SITAC](https://imgur.com/ASkhqO8.jpg)
+
 Batumi:
-- 4x A-10C
-- 2x M-2000C
-- 2x F-16C
+- 4x A-10C (Enfield 1)
+- 2x M-2000C (Ford 1)
+- 2x F-16C (Dodge 1)
+- 2x JF-17 (Chevy 1)
 
 Stennis:
-- 4x F/A-18C
-- 4x F-14B
-- 1x UH-1H
+- 4x F/A-18C (Uzi 1)
+- 4x F-14B (Pontiac 1)
+- 2x UH-1H (Springfield 1+2)
 
 Tarawa:
-- 4x AV-8B
+- 4x AV-8B (Colt 1)
 
 FARP London (KM65 Zomleti):
-- 4x Mi-8
-- 4x SA342L
-- 4x SA342M
-- 4x SA342Minigun
-- 4x Ka50
-- 4x UH-1H
+- 4x SA342L (Springfield 3)
+- 4x SA342M (Springfield 4)
+- 4x SA342Minigun (Springfield 5)
+- 4x Mi-8MTV (Springfield 6)
+- 4x UH-1H (Springfield 7)
+- 4x Ka50 (Springfield 8)
 
 FARP Paris (GH03 Ochamchira):
 - n/a
 
-FARP Moscou (FH57 Adzigezh):
+FARP Moscow (FH57 Adzigezh):
 - n/a
+
+Slots Rewards:
+
+Kobuleti:
+- 4x F-16C (Dodge 2)
+- 4x M-2000C (Ford 2)
+- 4x JF-17 (Chevy 2)
+
+Senaki:
+- 4x A-10C (Enfield 2)
+
+FARP Paris:
+- 4x SA342L (Enfield 4)
+- 4x SA342M (Enfield 5)
+- 4x SA342Minigun (Enfield 6)
+- 4x Mi-8MTV (Enfield 7)
+- 4x UH-1H (Enfield 8)
+- 4x Ka50 (Enfield 9)
 
 Primary objectives
 ------------------
@@ -44,16 +69,13 @@ Primary objectives
 
 Reward: 
 - blue SAM on Kobuleti
+- unlock Kobuleti slots
 
 2 Capture Senaki
 
 Reward:
 - blue SAM on Senaki
-- new slots on Senaki:
-  - 4x A-10C
-  - 4x M-2000C
-  - 4x F-16C
-  - 4x JF-17
+- unlock Senaki slots
 
 3 Capture Kutaisi
 

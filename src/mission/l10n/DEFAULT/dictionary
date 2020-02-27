@@ -326,6 +326,17 @@ autogft_Setup:new()\
 }\
 ",
     ["DictKey_ActionText_5107"] = "veafCapture.onAirportCapture()",
+    ["DictKey_ActionText_5108"] = "trigger.action.setUserFlag(\"SSB\",100)\
+\
+",
+    ["DictKey_ActionText_5111"] = "trigger.action.setUserFlag(\"SSB\",100)\
+\
+",
+    ["DictKey_ActionText_5112"] = "trigger.action.setUserFlag(\"Kobuleti F-16C Dodge 2\",0)\
+trigger.action.setUserFlag(\"Kobuleti M-2000C Ford 2\",0)\
+trigger.action.setUserFlag(\"Kobuleti JF-17 Chevy 2\",0)",
+    ["DictKey_ActionText_5113"] = "trigger.action.setUserFlag(\"Senaki A-10C Enfield 2\",0)\
+",
     ["DictKey_ActionText_950"] = "MA_buildMenu()",
     ["DictKey_descriptionBlueTask_3"] = "",
     ["DictKey_descriptionRedTask_2"] = "",

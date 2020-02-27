@@ -4027,7 +4027,7 @@ mission = {
                                             [3] = 1,
                                             ["name"] = "Enfield41",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4654766607097,
                                         ["livery_id"] = "US Marines Fictional",
                                         ["name"] = "DictKey_UnitName_5199",
                                         ["onboard_num"] = "050",
@@ -4039,7 +4039,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4654766607097,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -4081,7 +4081,7 @@ mission = {
                                             [3] = 2,
                                             ["name"] = "Enfield42",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4654766607097,
                                         ["livery_id"] = "US Marines Fictional",
                                         ["name"] = "DictKey_UnitName_5200",
                                         ["onboard_num"] = "1047",
@@ -4093,7 +4093,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4654766607097,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -4135,7 +4135,7 @@ mission = {
                                             [3] = 3,
                                             ["name"] = "Enfield43",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4654766607097,
                                         ["livery_id"] = "US Marines Fictional",
                                         ["name"] = "DictKey_UnitName_5201",
                                         ["onboard_num"] = "1048",
@@ -4147,7 +4147,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4654766607097,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -4189,7 +4189,7 @@ mission = {
                                             [3] = 4,
                                             ["name"] = "Enfield44",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4654766607097,
                                         ["livery_id"] = "US Marines Fictional",
                                         ["name"] = "DictKey_UnitName_5202",
                                         ["onboard_num"] = "1049",
@@ -4201,7 +4201,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4654766607097,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -4520,7 +4520,7 @@ mission = {
                                             [3] = 1,
                                             ["name"] = "Enfield51",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4649744154132,
                                         ["livery_id"] = "US Marines Fictional",
                                         ["name"] = "DictKey_UnitName_5213",
                                         ["onboard_num"] = "050",
@@ -4532,7 +4532,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4649744154132,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -4574,7 +4574,7 @@ mission = {
                                             [3] = 2,
                                             ["name"] = "Enfield52",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4649744154132,
                                         ["livery_id"] = "US Marines Fictional",
                                         ["name"] = "DictKey_UnitName_5214",
                                         ["onboard_num"] = "1047",
@@ -4586,7 +4586,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4649744154132,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -4628,7 +4628,7 @@ mission = {
                                             [3] = 3,
                                             ["name"] = "Enfield53",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4649744154132,
                                         ["livery_id"] = "US Marines Fictional",
                                         ["name"] = "DictKey_UnitName_5215",
                                         ["onboard_num"] = "1048",
@@ -4640,7 +4640,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4649744154132,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -4682,7 +4682,7 @@ mission = {
                                             [3] = 4,
                                             ["name"] = "Enfield54",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4649744154132,
                                         ["livery_id"] = "US Marines Fictional",
                                         ["name"] = "DictKey_UnitName_5216",
                                         ["onboard_num"] = "1049",
@@ -4694,7 +4694,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4649744154132,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -5013,7 +5013,7 @@ mission = {
                                             [3] = 1,
                                             ["name"] = "Enfield61",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4642163223939,
                                         ["livery_id"] = "US Marines Fictional",
                                         ["name"] = "DictKey_UnitName_5227",
                                         ["onboard_num"] = "050",
@@ -5025,7 +5025,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4642163223939,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -5067,7 +5067,7 @@ mission = {
                                             [3] = 2,
                                             ["name"] = "Enfield62",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4642163223939,
                                         ["livery_id"] = "US Marines Fictional",
                                         ["name"] = "DictKey_UnitName_5228",
                                         ["onboard_num"] = "1047",
@@ -5079,7 +5079,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4642163223939,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -5121,7 +5121,7 @@ mission = {
                                             [3] = 3,
                                             ["name"] = "Enfield63",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4642163223939,
                                         ["livery_id"] = "US Marines Fictional",
                                         ["name"] = "DictKey_UnitName_5229",
                                         ["onboard_num"] = "1048",
@@ -5133,7 +5133,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4642163223939,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -5175,7 +5175,7 @@ mission = {
                                             [3] = 4,
                                             ["name"] = "Enfield64",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4642163223939,
                                         ["livery_id"] = "US Marines Fictional",
                                         ["name"] = "DictKey_UnitName_5230",
                                         ["onboard_num"] = "1049",
@@ -5187,7 +5187,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4642163223939,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -5487,7 +5487,7 @@ mission = {
                                             ["name"] = "Enfield71",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4639461982057,
                                         ["livery_id"] = "USA_AFG",
                                         ["name"] = "DictKey_UnitName_5241",
                                         ["onboard_num"] = "050",
@@ -5499,7 +5499,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4639461982057,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -5571,7 +5571,7 @@ mission = {
                                             [3] = 2,
                                             ["name"] = "Enfield72",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4639461982057,
                                         ["livery_id"] = "USA_AFG",
                                         ["name"] = "DictKey_UnitName_5242",
                                         ["onboard_num"] = "1047",
@@ -5583,7 +5583,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4639461982057,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -5655,7 +5655,7 @@ mission = {
                                             [3] = 3,
                                             ["name"] = "Enfield73",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4639461982057,
                                         ["livery_id"] = "USA_AFG",
                                         ["name"] = "DictKey_UnitName_5243",
                                         ["onboard_num"] = "1048",
@@ -5667,7 +5667,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4639461982057,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -5739,7 +5739,7 @@ mission = {
                                             [3] = 4,
                                             ["name"] = "Enfield74",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4639461982057,
                                         ["livery_id"] = "USA_AFG",
                                         ["name"] = "DictKey_UnitName_5244",
                                         ["onboard_num"] = "1049",
@@ -5751,7 +5751,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4639461982057,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -6067,7 +6067,7 @@ mission = {
                                             ["name"] = "Enfield81",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4633397524783,
                                         ["livery_id"] = "Army Standard",
                                         ["name"] = "DictKey_UnitName_5255",
                                         ["onboard_num"] = "050",
@@ -6079,7 +6079,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4633397524783,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -6131,7 +6131,7 @@ mission = {
                                             [3] = 2,
                                             ["name"] = "Enfield82",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4633397524783,
                                         ["livery_id"] = "Army Standard",
                                         ["name"] = "DictKey_UnitName_5256",
                                         ["onboard_num"] = "1047",
@@ -6143,7 +6143,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4633397524783,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -6195,7 +6195,7 @@ mission = {
                                             [3] = 3,
                                             ["name"] = "Enfield83",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4633397524783,
                                         ["livery_id"] = "Army Standard",
                                         ["name"] = "DictKey_UnitName_5257",
                                         ["onboard_num"] = "1048",
@@ -6207,7 +6207,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4633397524783,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -6259,7 +6259,7 @@ mission = {
                                             [3] = 4,
                                             ["name"] = "Enfield84",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4633397524783,
                                         ["livery_id"] = "Army Standard",
                                         ["name"] = "DictKey_UnitName_5258",
                                         ["onboard_num"] = "1049",
@@ -6271,7 +6271,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4633397524783,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -6580,7 +6580,7 @@ mission = {
                                             ["name"] = "Enfield91",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4627530167239,
                                         ["livery_id"] = "us army",
                                         ["name"] = "DictKey_UnitName_5269",
                                         ["onboard_num"] = "050",
@@ -6592,7 +6592,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4627530167239,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -6650,7 +6650,7 @@ mission = {
                                             [3] = 2,
                                             ["name"] = "Enfield92",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4627530167239,
                                         ["livery_id"] = "us army",
                                         ["name"] = "DictKey_UnitName_5270",
                                         ["onboard_num"] = "1047",
@@ -6662,7 +6662,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4627530167239,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -6720,7 +6720,7 @@ mission = {
                                             [3] = 3,
                                             ["name"] = "Enfield93",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4627530167239,
                                         ["livery_id"] = "us army",
                                         ["name"] = "DictKey_UnitName_5271",
                                         ["onboard_num"] = "1048",
@@ -6732,7 +6732,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4627530167239,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -6790,7 +6790,7 @@ mission = {
                                             [3] = 4,
                                             ["name"] = "Enfield94",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 0.28754948602995,
+                                        ["heading"] = 2.4627530167239,
                                         ["livery_id"] = "us army",
                                         ["name"] = "DictKey_UnitName_5272",
                                         ["onboard_num"] = "1049",
@@ -6802,7 +6802,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -0.28754948602995,
+                                        ["psi"] = -2.4627530167239,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -27347,7 +27347,7 @@ mission = {
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1730800,
+    ["currentKey"] = 1731911,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -34503,11 +34503,11 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -305482.36900827,
-        ["centerY"] = 654986.85238359,
-        ["zoom"] = 22975.918848467,
+        ["centerX"] = -226187.26386284,
+        ["centerY"] = 589257.67696139,
+        ["zoom"] = 409081.39542791,
     }, -- end of ["map"]
-    ["maxDictId"] = 5281,
+    ["maxDictId"] = 5282,
     ["pictureFileNameB"] = {
         [1] = "ResKey_ImageBriefing_2136",
     }, -- end of ["pictureFileNameB"]
@@ -34561,8 +34561,9 @@ mission = {
             [10] = "a_out_text_delay(getValueDictByKey(\"DictKey_ActionText_4451\"), 10, false, 0);a_do_script(getValueDictByKey(\"DictKey_ActionText_4452\"));",
             [11] = "a_out_text_delay(getValueDictByKey(\"DictKey_ActionText_4400\"), 10, false, 0);a_do_script(getValueDictByKey(\"DictKey_ActionText_4401\"));",
             [12] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5112\"));",
-            [13] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5113\"));",
-            [14] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5107\"));",
+            [13] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5282\"));",
+            [14] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5113\"));",
+            [15] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5107\"));",
         }, -- end of ["actions"]
         ["conditions"] = {
             [1] = "return(true)",
@@ -34577,8 +34578,9 @@ mission = {
             [10] = "return(c_predicate(getValueDictByKey(\"DictKey_ActionText_4450\")) )",
             [11] = "return(c_predicate(getValueDictByKey(\"DictKey_ActionText_4399\")) )",
             [12] = "return(c_coalition_has_airdrome(2, 24) )",
-            [13] = "return(c_coalition_has_airdrome(2, 23) )",
-            [14] = "return(true)",
+            [13] = "return(c_coalition_has_airdrome(2, 24) )",
+            [14] = "return(c_coalition_has_airdrome(2, 25) )",
+            [15] = "return(true)",
         }, -- end of ["conditions"]
         ["custom"] = {
         }, -- end of ["custom"]
@@ -34589,6 +34591,7 @@ mission = {
                 [12] = "if mission.trig.conditions[12]() then mission.trig.actions[12]() end",
                 [13] = "if mission.trig.conditions[13]() then mission.trig.actions[13]() end",
                 [14] = "if mission.trig.conditions[14]() then mission.trig.actions[14]() end",
+                [15] = "if mission.trig.conditions[15]() then mission.trig.actions[15]() end",
             }, -- end of ["base captured"]
         }, -- end of ["events"]
         ["flag"] = {
@@ -34606,6 +34609,7 @@ mission = {
             [12] = true,
             [13] = true,
             [14] = true,
+            [15] = true,
         }, -- end of ["flag"]
         ["func"] = {
             [2] = "if mission.trig.conditions[2]() then mission.trig.actions[2]() end",
@@ -35402,18 +35406,18 @@ mission = {
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
-                    ["KeyDict_text"] = "DictKey_ActionText_5113",
+                    ["KeyDict_text"] = "DictKey_ActionText_5282",
                     ["predicate"] = "a_do_script",
-                    ["text"] = "DictKey_ActionText_5113",
+                    ["text"] = "DictKey_ActionText_5282",
                 }, -- end of [1]
             }, -- end of ["actions"]
             ["colorItem"] = "0x0000ffff",
-            ["comment"] = "Senaki Capture",
+            ["comment"] = "Kobuleti Capture",
             ["eventlist"] = "base captured",
             ["predicate"] = "triggerContinious",
             ["rules"] = {
                 [1] = {
-                    ["airdromelist"] = 23,
+                    ["airdromelist"] = 24,
                     ["coalitionlist"] = 2,
                     ["predicate"] = "c_coalition_has_airdrome",
                     ["zone"] = 1461,
@@ -35421,6 +35425,31 @@ mission = {
             }, -- end of ["rules"]
         }, -- end of [13]
         [14] = {
+            ["actions"] = {
+                [1] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["KeyDict_text"] = "DictKey_ActionText_5113",
+                    ["predicate"] = "a_do_script",
+                    ["text"] = "DictKey_ActionText_5113",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x0000ffff",
+            ["comment"] = "Kutaisi Capture",
+            ["eventlist"] = "base captured",
+            ["predicate"] = "triggerContinious",
+            ["rules"] = {
+                [1] = {
+                    ["airdromelist"] = 25,
+                    ["coalitionlist"] = 2,
+                    ["predicate"] = "c_coalition_has_airdrome",
+                    ["zone"] = 1461,
+                }, -- end of [1]
+            }, -- end of ["rules"]
+        }, -- end of [14]
+        [15] = {
             ["actions"] = {
                 [1] = {
                     ["ai_task"] = {
@@ -35437,7 +35466,7 @@ mission = {
             ["predicate"] = "triggerContinious",
             ["rules"] = {
             }, -- end of ["rules"]
-        }, -- end of [14]
+        }, -- end of [15]
     }, -- end of ["trigrules"]
     ["version"] = 16,
     ["weather"] = {

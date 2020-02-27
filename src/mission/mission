@@ -7852,7 +7852,7 @@ mission = {
                                 ["frequency"] = 251,
                                 ["groupId"] = 910,
                                 ["hidden"] = false,
-                                ["lateActivation"] = true,
+                                ["lateActivation"] = false,
                                 ["modulation"] = 0,
                                 ["name"] = "DictKey_GroupName_5055",
                                 ["radioSet"] = false,
@@ -8130,7 +8130,7 @@ mission = {
                                             ["y"] = 622392.1526461,
                                         }, -- end of [8]
                                     }, -- end of ["points"]
-                                    ["routeRelativeTOT"] = true,
+                                    ["routeRelativeTOT"] = false,
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
                                 ["task"] = "CAS",
@@ -8275,7 +8275,7 @@ mission = {
                                 ["frequency"] = 305,
                                 ["groupId"] = 911,
                                 ["hidden"] = false,
-                                ["lateActivation"] = true,
+                                ["lateActivation"] = false,
                                 ["modulation"] = 0,
                                 ["name"] = "DictKey_GroupName_5068",
                                 ["radioSet"] = false,
@@ -8511,7 +8511,7 @@ mission = {
                                             ["y"] = 594107.2005335,
                                         }, -- end of [8]
                                     }, -- end of ["points"]
-                                    ["routeRelativeTOT"] = true,
+                                    ["routeRelativeTOT"] = false,
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
                                 ["task"] = "CAP",
@@ -9056,7 +9056,7 @@ mission = {
                                 ["frequency"] = 251,
                                 ["groupId"] = 912,
                                 ["hidden"] = false,
-                                ["lateActivation"] = true,
+                                ["lateActivation"] = false,
                                 ["modulation"] = 0,
                                 ["name"] = "DictKey_GroupName_5081",
                                 ["radioSet"] = false,
@@ -9277,7 +9277,7 @@ mission = {
                                             ["y"] = 594100.83682244,
                                         }, -- end of [8]
                                     }, -- end of ["points"]
-                                    ["routeRelativeTOT"] = true,
+                                    ["routeRelativeTOT"] = false,
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
                                 ["task"] = "CAP",
@@ -9834,7 +9834,7 @@ mission = {
                                 ["frequency"] = 243,
                                 ["groupId"] = 913,
                                 ["hidden"] = false,
-                                ["lateActivation"] = true,
+                                ["lateActivation"] = false,
                                 ["modulation"] = 0,
                                 ["name"] = "DictKey_GroupName_5094",
                                 ["radioSet"] = false,
@@ -10070,7 +10070,7 @@ mission = {
                                             ["y"] = 594103.16196229,
                                         }, -- end of [8]
                                     }, -- end of ["points"]
-                                    ["routeRelativeTOT"] = true,
+                                    ["routeRelativeTOT"] = false,
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
                                 ["task"] = "CAP",
@@ -21127,7 +21127,7 @@ mission = {
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1726540,
+    ["currentKey"] = 1727375,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -28283,9 +28283,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -281783.91402417,
-        ["centerY"] = 647050.48078764,
-        ["zoom"] = 3805.3911382663,
+        ["centerX"] = -318408.04302757,
+        ["centerY"] = 635308.72568663,
+        ["zoom"] = 2944.5829872637,
     }, -- end of ["map"]
     ["maxDictId"] = 5113,
     ["pictureFileNameB"] = {

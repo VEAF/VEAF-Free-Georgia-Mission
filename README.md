@@ -11,9 +11,10 @@ The USA will free Georgia.
 When the campain begin...
 
 Batumi:
-- 4x A-10C
+- 4x A-10C (Enfield 1)
 - 2x M-2000C
 - 2x F-16C
+- 2x JF-17
 
 Stennis:
 - 4x F/A-18C
@@ -44,6 +45,8 @@ Primary objectives
 
 Reward: 
 - blue SAM on Kobuleti
+- new slots on Kobuleti:
+  - 4x F-16C
 
 2 Capture Senaki
 

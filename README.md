@@ -17,11 +17,11 @@ Batumi:
 
 Stennis:
 - 4x F/A-18C
-- 4x F-14B
+- 4x F-14B (Pontiac 1)
 - 1x UH-1H
 
 Tarawa:
-- 4x AV-8B
+- 4x AV-8B (Colt 1)
 
 FARP London (KM65 Zomleti):
 - 4x Mi-8
@@ -34,7 +34,7 @@ FARP London (KM65 Zomleti):
 FARP Paris (GH03 Ochamchira):
 - n/a
 
-FARP Moscou (FH57 Adzigezh):
+FARP Moscow (FH57 Adzigezh):
 - n/a
 
 Primary objectives

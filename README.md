@@ -17,7 +17,7 @@ Batumi:
 - 2x JF-17 (Chevy 1)
 
 Stennis:
-- 4x F/A-18C (Uzei 1)
+- 4x F/A-18C (Uzi 1)
 - 4x F-14B (Pontiac 1)
 - 2x UH-1H (Springfield 1+2)
 
@@ -38,6 +38,16 @@ FARP Paris (GH03 Ochamchira):
 FARP Moscow (FH57 Adzigezh):
 - n/a
 
+Slots Rewards:
+
+Kobuleti:
+- 4x F-16C (Dodge 2)
+- 4x M-2000C (Ford 2)
+- 4x JF-17
+
+Senaki:
+- 4x A-10C (Enfield 2)
+
 Primary objectives
 ------------------
 
@@ -45,18 +55,13 @@ Primary objectives
 
 Reward: 
 - blue SAM on Kobuleti
-- new slots on Kobuleti:
-  - 4x F-16C
+- unlock Kobuleti slots
 
 2 Capture Senaki
 
 Reward:
 - blue SAM on Senaki
-- new slots on Senaki:
-  - 4x A-10C
-  - 4x M-2000C
-  - 4x F-16C
-  - 4x JF-17
+- unlock Senaki slots
 
 3 Capture Kutaisi
 

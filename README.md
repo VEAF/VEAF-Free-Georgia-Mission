@@ -14,6 +14,8 @@ The USA will free Georgia.
 
 When the campain begin...
 
+![SITAC](https://imgur.com/ASkhqO8)
+
 Batumi:
 - 4x A-10C (Enfield 1)
 - 2x M-2000C (Ford 1)
@@ -51,6 +53,14 @@ Kobuleti:
 
 Senaki:
 - 4x A-10C (Enfield 2)
+
+FARP Paris:
+- 4x SA342L (Enfield 4)
+- 4x SA342M (Enfield 5)
+- 4x SA342Minigun (Enfield 6)
+- 4x Mi-8MTV (Enfield 7)
+- 4x UH-1H (Enfield 8)
+- 4x Ka50 (Enfield 9)
 
 Primary objectives
 ------------------

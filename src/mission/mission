@@ -7852,7 +7852,7 @@ mission = {
                                 ["frequency"] = 251,
                                 ["groupId"] = 910,
                                 ["hidden"] = false,
-                                ["lateActivation"] = false,
+                                ["lateActivation"] = true,
                                 ["modulation"] = 0,
                                 ["name"] = "DictKey_GroupName_5055",
                                 ["radioSet"] = false,
@@ -8130,7 +8130,7 @@ mission = {
                                             ["y"] = 622392.1526461,
                                         }, -- end of [8]
                                     }, -- end of ["points"]
-                                    ["routeRelativeTOT"] = false,
+                                    ["routeRelativeTOT"] = true,
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
                                 ["task"] = "CAS",
@@ -8275,7 +8275,7 @@ mission = {
                                 ["frequency"] = 305,
                                 ["groupId"] = 911,
                                 ["hidden"] = false,
-                                ["lateActivation"] = false,
+                                ["lateActivation"] = true,
                                 ["modulation"] = 0,
                                 ["name"] = "DictKey_GroupName_5068",
                                 ["radioSet"] = false,
@@ -8511,7 +8511,7 @@ mission = {
                                             ["y"] = 594107.2005335,
                                         }, -- end of [8]
                                     }, -- end of ["points"]
-                                    ["routeRelativeTOT"] = false,
+                                    ["routeRelativeTOT"] = true,
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
                                 ["task"] = "CAP",
@@ -9056,7 +9056,7 @@ mission = {
                                 ["frequency"] = 251,
                                 ["groupId"] = 912,
                                 ["hidden"] = false,
-                                ["lateActivation"] = false,
+                                ["lateActivation"] = true,
                                 ["modulation"] = 0,
                                 ["name"] = "DictKey_GroupName_5081",
                                 ["radioSet"] = false,
@@ -9277,7 +9277,7 @@ mission = {
                                             ["y"] = 594100.83682244,
                                         }, -- end of [8]
                                     }, -- end of ["points"]
-                                    ["routeRelativeTOT"] = false,
+                                    ["routeRelativeTOT"] = true,
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
                                 ["task"] = "CAP",
@@ -9834,7 +9834,7 @@ mission = {
                                 ["frequency"] = 243,
                                 ["groupId"] = 913,
                                 ["hidden"] = false,
-                                ["lateActivation"] = false,
+                                ["lateActivation"] = true,
                                 ["modulation"] = 0,
                                 ["name"] = "DictKey_GroupName_5094",
                                 ["radioSet"] = false,
@@ -10070,7 +10070,7 @@ mission = {
                                             ["y"] = 594103.16196229,
                                         }, -- end of [8]
                                     }, -- end of ["points"]
-                                    ["routeRelativeTOT"] = false,
+                                    ["routeRelativeTOT"] = true,
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
                                 ["task"] = "CAP",
@@ -21127,7 +21127,7 @@ mission = {
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1727375,
+    ["currentKey"] = 1726540,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -28283,9 +28283,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -318408.04302757,
-        ["centerY"] = 635308.72568663,
-        ["zoom"] = 2944.5829872637,
+        ["centerX"] = -281783.91402417,
+        ["centerY"] = 647050.48078764,
+        ["zoom"] = 3805.3911382663,
     }, -- end of ["map"]
     ["maxDictId"] = 5113,
     ["pictureFileNameB"] = {
@@ -28330,7 +28330,7 @@ mission = {
     ["trig"] = {
         ["actions"] = {
             [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_3480\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3308\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3353\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_3354\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_2612\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2526\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2607\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3265\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2617\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3269\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2608\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2609\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2610\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2546\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2621\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2622\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2623\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2628\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2629\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3623\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3624\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4550\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4552\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4574\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4585\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4576\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_5053\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_3295\"));a_set_ai_task(358, 1);a_set_flag_value(9001, 1);a_set_ai_task(598, 1);a_set_ai_task(598, 2);a_set_flag_value(9074, 1);",
-            [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_5109\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_5110\")); mission.trig.func[2]=nil;",
+            [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_5110\")); mission.trig.func[2]=nil;",
             [3] = "a_set_ai_task(598, 1);a_set_ai_task(598, 2);a_set_flag_value(9074, 0);a_set_flag_value(9074, 1);",
             [4] = "a_set_ai_task(358, 1);a_set_flag_value(9001, 0);a_set_flag_value(9001, 1);",
             [5] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_3071\"));a_deactivate_group(580); mission.trig.func[5]=nil;",
@@ -28791,21 +28791,11 @@ mission = {
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
-                    ["file"] = "ResKey_Action_5109",
-                    ["KeyDict_text"] = "DictKey_ActionText_5108",
-                    ["predicate"] = "a_do_script_file",
-                    ["text"] = "DictKey_ActionText_5108",
-                }, -- end of [1]
-                [2] = {
-                    ["ai_task"] = {
-                        [1] = "",
-                        [2] = "",
-                    }, -- end of ["ai_task"]
                     ["file"] = "ResKey_Action_5110",
                     ["KeyDict_text"] = "DictKey_ActionText_5111",
                     ["predicate"] = "a_do_script_file",
                     ["text"] = "DictKey_ActionText_5111",
-                }, -- end of [2]
+                }, -- end of [1]
             }, -- end of ["actions"]
             ["comment"] = "SimpleSlotBlock",
             ["eventlist"] = "",

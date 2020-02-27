@@ -1,5 +1,9 @@
 # VEAF Free Georgia Mission
 
+!! Note !!
+
+SimpleSlotBlock should be installed in DCS/Scripts/Hooks folder (https://github.com/ciribob/DCS-SimpleSlotBlock).
+
 ## Abstract
 
 Georgia has been invaded by Russia.

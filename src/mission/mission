@@ -2511,9 +2511,59 @@ mission = {
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
-                                            ["alt"] = 2000,
+                                            ["alt"] = 10.0584,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 999.001666938,
+                                            ["ETA"] = 520.88471476011,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_4996",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -355857.7838885,
+                                            ["y"] = 617502.53433592,
+                                        }, -- end of [2]
+                                        [3] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 17.9832,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 823.83678224143,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_4997",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -317991.34270892,
+                                            ["y"] = 635848.63198338,
+                                        }, -- end of [3]
+                                        [4] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 45.1104,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 1243.5715384367,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_4406",
@@ -2531,9 +2581,109 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -284870.17177265,
-                                            ["y"] = 683711.3352283,
-                                        }, -- end of [2]
+                                            ["x"] = -284953.07100639,
+                                            ["y"] = 683879.39093856,
+                                        }, -- end of [4]
+                                        [5] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 45.1104,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 1509.7609299432,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_4998",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -281657.28034019,
+                                            ["y"] = 647055.83825522,
+                                        }, -- end of [5]
+                                        [6] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 13.1064,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 2249.7491732547,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_4999",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -220523.75874847,
+                                            ["y"] = 564438.47628331,
+                                        }, -- end of [6]
+                                        [7] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 21,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 2635.0552166965,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5000",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -197144.79076164,
+                                            ["y"] = 516300.65335619,
+                                        }, -- end of [7]
+                                        [8] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 3385.0125422623,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5001",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 138.88888888889,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -266432.32259001,
+                                            ["y"] = 594074.0268207,
+                                        }, -- end of [8]
                                     }, -- end of ["points"]
                                 }, -- end of ["route"]
                                 ["start_time"] = 0,
@@ -2552,11 +2702,11 @@ mission = {
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
                                             [1] = 3,
-                                            [2] = 2,
+                                            [2] = 1,
                                             [3] = 1,
-                                            ["name"] = "Uzi21",
+                                            ["name"] = "Uzi11",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 1.2657848989242,
+                                        ["heading"] = 1.9880864114186,
                                         ["livery_id"] = "VFA-37",
                                         ["name"] = "DictKey_UnitName_2290",
                                         ["onboard_num"] = "032",
@@ -2571,7 +2721,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.2657848989242,
+                                        ["psi"] = -1.9880864114186,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -2638,11 +2788,11 @@ mission = {
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
                                             [1] = 3,
-                                            [2] = 2,
+                                            [2] = 1,
                                             [3] = 2,
-                                            ["name"] = "Uzi22",
+                                            ["name"] = "Uzi12",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 1.2657848989242,
+                                        ["heading"] = 1.9880864114186,
                                         ["livery_id"] = "VFA-37",
                                         ["name"] = "DictKey_UnitName_2292",
                                         ["onboard_num"] = "033",
@@ -2657,7 +2807,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.2657848989242,
+                                        ["psi"] = -1.9880864114186,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -2724,11 +2874,11 @@ mission = {
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
                                             [1] = 3,
-                                            [2] = 2,
+                                            [2] = 1,
                                             [3] = 3,
-                                            ["name"] = "Uzi23",
+                                            ["name"] = "Uzi13",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 1.2657848989242,
+                                        ["heading"] = 1.9880864114186,
                                         ["livery_id"] = "VFA-37",
                                         ["name"] = "DictKey_UnitName_2293",
                                         ["onboard_num"] = "034",
@@ -2743,7 +2893,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.2657848989242,
+                                        ["psi"] = -1.9880864114186,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -2810,11 +2960,11 @@ mission = {
                                         ["alt_type"] = "BARO",
                                         ["callsign"] = {
                                             [1] = 3,
-                                            [2] = 2,
+                                            [2] = 1,
                                             [3] = 4,
-                                            ["name"] = "Uzi24",
+                                            ["name"] = "Uzi14",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 1.2657848989242,
+                                        ["heading"] = 1.9880864114186,
                                         ["livery_id"] = "VFA-37",
                                         ["name"] = "DictKey_UnitName_2294",
                                         ["onboard_num"] = "035",
@@ -2829,7 +2979,7 @@ mission = {
                                             ["pylons"] = {
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.2657848989242,
+                                        ["psi"] = -1.9880864114186,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -2945,7 +3095,7 @@ mission = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 10.0584,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 520.30830134976,
+                                            ["ETA"] = 520.61895526185,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_4990",
@@ -2963,8 +3113,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -355812.18896607,
-                                            ["y"] = 617435.17427754,
+                                            ["x"] = -355829.15912664,
+                                            ["y"] = 617474.84709798,
                                         }, -- end of [2]
                                         [3] = {
                                             ["action"] = "Turning Point",
@@ -3149,7 +3299,7 @@ mission = {
                                             ["name"] = "Pontiac11",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = 1.9878873877072,
+                                        ["heading"] = 1.9878796951669,
                                         ["livery_id"] = "VF-101 Red",
                                         ["name"] = "DictKey_UnitName_3213",
                                         ["onboard_num"] = "957",
@@ -3194,7 +3344,7 @@ mission = {
                                                 }, -- end of [10]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.9878873877072,
+                                        ["psi"] = -1.9878796951669,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -3339,7 +3489,7 @@ mission = {
                                             [3] = 2,
                                             ["name"] = "Pontiac12",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 1.9878873877072,
+                                        ["heading"] = 1.9878796951669,
                                         ["livery_id"] = "VF-101 Red",
                                         ["name"] = "DictKey_UnitName_3218",
                                         ["onboard_num"] = "958",
@@ -3384,7 +3534,7 @@ mission = {
                                                 }, -- end of [10]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.9878873877072,
+                                        ["psi"] = -1.9878796951669,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -3529,7 +3679,7 @@ mission = {
                                             [3] = 3,
                                             ["name"] = "Pontiac13",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 1.9878873877072,
+                                        ["heading"] = 1.9878796951669,
                                         ["livery_id"] = "VF-101 Red",
                                         ["name"] = "DictKey_UnitName_3219",
                                         ["onboard_num"] = "959",
@@ -3574,7 +3724,7 @@ mission = {
                                                 }, -- end of [10]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.9878873877072,
+                                        ["psi"] = -1.9878796951669,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -3719,7 +3869,7 @@ mission = {
                                             [3] = 4,
                                             ["name"] = "Pontiac14",
                                         }, -- end of ["callsign"]
-                                        ["heading"] = 1.9878873877072,
+                                        ["heading"] = 1.9878796951669,
                                         ["livery_id"] = "VF-101 Red",
                                         ["name"] = "DictKey_UnitName_3220",
                                         ["onboard_num"] = "960",
@@ -3764,7 +3914,7 @@ mission = {
                                                 }, -- end of [10]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.9878873877072,
+                                        ["psi"] = -1.9878796951669,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -4371,440 +4521,6 @@ mission = {
                             }, -- end of [9]
                             [10] = {
                                 ["communication"] = true,
-                                ["frequency"] = 305,
-                                ["groupId"] = 702,
-                                ["hidden"] = false,
-                                ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_3817",
-                                ["radioSet"] = false,
-                                ["route"] = {
-                                    ["points"] = {
-                                        [1] = {
-                                            ["action"] = "From Parking Area Hot",
-                                            ["alt"] = 0,
-                                            ["alt_type"] = "BARO",
-                                            ["ETA"] = 0,
-                                            ["ETA_locked"] = true,
-                                            ["formation_template"] = "",
-                                            ["helipadId"] = 1330,
-                                            ["linkUnit"] = 1330,
-                                            ["name"] = "DictKey_WptName_3822",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
-                                            ["speed"] = 138.88888888889,
-                                            ["speed_locked"] = true,
-                                            ["task"] = {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = {
-                                                    ["tasks"] = {
-                                                        [1] = {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 1,
-                                                            ["params"] = {
-                                                                ["action"] = {
-                                                                    ["id"] = "EPLRS",
-                                                                    ["params"] = {
-                                                                        ["groupId"] = 9,
-                                                                        ["value"] = true,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "TakeOffParkingHot",
-                                            ["x"] = -326537.43179237,
-                                            ["y"] = 551365.32588509,
-                                        }, -- end of [1]
-                                        [2] = {
-                                            ["action"] = "Turning Point",
-                                            ["alt"] = 2000,
-                                            ["alt_type"] = "BARO",
-                                            ["ETA"] = 1000.3553315113,
-                                            ["ETA_locked"] = false,
-                                            ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_4405",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
-                                            ["speed"] = 138.88888888889,
-                                            ["speed_locked"] = true,
-                                            ["task"] = {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = {
-                                                    ["tasks"] = {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = -284720.28954236,
-                                            ["y"] = 683861.21745858,
-                                        }, -- end of [2]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["start_time"] = 0,
-                                ["task"] = "Nothing",
-                                ["tasks"] = {
-                                }, -- end of ["tasks"]
-                                ["taskSelected"] = true,
-                                ["uncontrolled"] = false,
-                                ["units"] = {
-                                    [1] = {
-                                        ["AddPropAircraft"] = {
-                                            ["InnerBoard"] = 0,
-                                            ["OuterBoard"] = 0,
-                                        }, -- end of ["AddPropAircraft"]
-                                        ["alt"] = 0,
-                                        ["alt_type"] = "BARO",
-                                        ["callsign"] = {
-                                            [1] = 3,
-                                            [2] = 2,
-                                            [3] = 1,
-                                            ["name"] = "Uzi21",
-                                        }, -- end of ["callsign"]
-                                        ["heading"] = 1.2650798809435,
-                                        ["livery_id"] = "VFA-37",
-                                        ["name"] = "DictKey_UnitName_3818",
-                                        ["onboard_num"] = "032",
-                                        ["parking"] = "1",
-                                        ["parking_id"] = "1",
-                                        ["payload"] = {
-                                            ["ammo_type"] = 1,
-                                            ["chaff"] = 60,
-                                            ["flare"] = 30,
-                                            ["fuel"] = 4900,
-                                            ["gun"] = 100,
-                                            ["pylons"] = {
-                                            }, -- end of ["pylons"]
-                                        }, -- end of ["payload"]
-                                        ["psi"] = -1.2650798809435,
-                                        ["Radio"] = {
-                                            [1] = {
-                                                ["channels"] = {
-                                                    [1] = 251,
-                                                    [2] = 291,
-                                                    [3] = 292,
-                                                    [4] = 293,
-                                                    [5] = 294,
-                                                    [6] = 271,
-                                                    [7] = 271.05,
-                                                    [8] = 271.1,
-                                                    [9] = 271.15,
-                                                    [10] = 271.2,
-                                                    [11] = 271.25,
-                                                    [12] = 271.3,
-                                                    [13] = 271.35,
-                                                    [14] = 271.4,
-                                                    [15] = 271.45,
-                                                    [16] = 271.5,
-                                                    [17] = 271.55,
-                                                    [18] = 271.6,
-                                                    [19] = 271.65,
-                                                    [20] = 271.7,
-                                                }, -- end of ["channels"]
-                                            }, -- end of [1]
-                                            [2] = {
-                                                ["channels"] = {
-                                                    [1] = 251,
-                                                    [2] = 133,
-                                                    [3] = 132,
-                                                    [4] = 138,
-                                                    [5] = 129,
-                                                    [6] = 140,
-                                                    [7] = 134.1,
-                                                    [8] = 310.1,
-                                                    [9] = 310.2,
-                                                    [10] = 305.1,
-                                                    [11] = 305.2,
-                                                    [12] = 305.3,
-                                                    [13] = 305.4,
-                                                    [14] = 305.5,
-                                                    [15] = 282,
-                                                    [16] = 306.1,
-                                                    [17] = 306.2,
-                                                    [18] = 130.2,
-                                                    [19] = 130.3,
-                                                    [20] = 130.4,
-                                                }, -- end of ["channels"]
-                                            }, -- end of [2]
-                                        }, -- end of ["Radio"]
-                                        ["skill"] = "Client",
-                                        ["speed"] = 138.88888888889,
-                                        ["type"] = "FA-18C_hornet",
-                                        ["unitId"] = 1602,
-                                        ["x"] = -326537.43179237,
-                                        ["y"] = 551365.32588509,
-                                    }, -- end of [1]
-                                    [2] = {
-                                        ["AddPropAircraft"] = {
-                                            ["InnerBoard"] = 0,
-                                            ["OuterBoard"] = 0,
-                                        }, -- end of ["AddPropAircraft"]
-                                        ["alt"] = 0,
-                                        ["alt_type"] = "BARO",
-                                        ["callsign"] = {
-                                            [1] = 3,
-                                            [2] = 2,
-                                            [3] = 2,
-                                            ["name"] = "Uzi22",
-                                        }, -- end of ["callsign"]
-                                        ["heading"] = 1.2650798809435,
-                                        ["livery_id"] = "VFA-37",
-                                        ["name"] = "DictKey_UnitName_3819",
-                                        ["onboard_num"] = "033",
-                                        ["parking"] = "3",
-                                        ["parking_id"] = "3",
-                                        ["payload"] = {
-                                            ["ammo_type"] = 1,
-                                            ["chaff"] = 60,
-                                            ["flare"] = 30,
-                                            ["fuel"] = 4900,
-                                            ["gun"] = 100,
-                                            ["pylons"] = {
-                                            }, -- end of ["pylons"]
-                                        }, -- end of ["payload"]
-                                        ["psi"] = -1.2650798809435,
-                                        ["Radio"] = {
-                                            [1] = {
-                                                ["channels"] = {
-                                                    [1] = 251,
-                                                    [2] = 291,
-                                                    [3] = 292,
-                                                    [4] = 293,
-                                                    [5] = 294,
-                                                    [6] = 271,
-                                                    [7] = 271.05,
-                                                    [8] = 271.1,
-                                                    [9] = 271.15,
-                                                    [10] = 271.2,
-                                                    [11] = 271.25,
-                                                    [12] = 271.3,
-                                                    [13] = 271.35,
-                                                    [14] = 271.4,
-                                                    [15] = 271.45,
-                                                    [16] = 271.5,
-                                                    [17] = 271.55,
-                                                    [18] = 271.6,
-                                                    [19] = 271.65,
-                                                    [20] = 271.7,
-                                                }, -- end of ["channels"]
-                                            }, -- end of [1]
-                                            [2] = {
-                                                ["channels"] = {
-                                                    [1] = 251,
-                                                    [2] = 133,
-                                                    [3] = 132,
-                                                    [4] = 138,
-                                                    [5] = 129,
-                                                    [6] = 140,
-                                                    [7] = 134.1,
-                                                    [8] = 310.1,
-                                                    [9] = 310.2,
-                                                    [10] = 305.1,
-                                                    [11] = 305.2,
-                                                    [12] = 305.3,
-                                                    [13] = 305.4,
-                                                    [14] = 305.5,
-                                                    [15] = 282,
-                                                    [16] = 306.1,
-                                                    [17] = 306.2,
-                                                    [18] = 130.2,
-                                                    [19] = 130.3,
-                                                    [20] = 130.4,
-                                                }, -- end of ["channels"]
-                                            }, -- end of [2]
-                                        }, -- end of ["Radio"]
-                                        ["skill"] = "Client",
-                                        ["speed"] = 138.88888888889,
-                                        ["type"] = "FA-18C_hornet",
-                                        ["unitId"] = 1603,
-                                        ["x"] = -326624.99078218,
-                                        ["y"] = 551409.54240095,
-                                    }, -- end of [2]
-                                    [3] = {
-                                        ["AddPropAircraft"] = {
-                                            ["InnerBoard"] = 0,
-                                            ["OuterBoard"] = 0,
-                                        }, -- end of ["AddPropAircraft"]
-                                        ["alt"] = 0,
-                                        ["alt_type"] = "BARO",
-                                        ["callsign"] = {
-                                            [1] = 3,
-                                            [2] = 2,
-                                            [3] = 3,
-                                            ["name"] = "Uzi23",
-                                        }, -- end of ["callsign"]
-                                        ["heading"] = 1.2650798809435,
-                                        ["livery_id"] = "VFA-37",
-                                        ["name"] = "DictKey_UnitName_3820",
-                                        ["onboard_num"] = "034",
-                                        ["parking"] = "2",
-                                        ["parking_id"] = "2",
-                                        ["payload"] = {
-                                            ["ammo_type"] = 1,
-                                            ["chaff"] = 60,
-                                            ["flare"] = 30,
-                                            ["fuel"] = 4900,
-                                            ["gun"] = 100,
-                                            ["pylons"] = {
-                                            }, -- end of ["pylons"]
-                                        }, -- end of ["payload"]
-                                        ["psi"] = -1.2650798809435,
-                                        ["Radio"] = {
-                                            [1] = {
-                                                ["channels"] = {
-                                                    [1] = 251,
-                                                    [2] = 291,
-                                                    [3] = 292,
-                                                    [4] = 293,
-                                                    [5] = 294,
-                                                    [6] = 271,
-                                                    [7] = 271.05,
-                                                    [8] = 271.1,
-                                                    [9] = 271.15,
-                                                    [10] = 271.2,
-                                                    [11] = 271.25,
-                                                    [12] = 271.3,
-                                                    [13] = 271.35,
-                                                    [14] = 271.4,
-                                                    [15] = 271.45,
-                                                    [16] = 271.5,
-                                                    [17] = 271.55,
-                                                    [18] = 271.6,
-                                                    [19] = 271.65,
-                                                    [20] = 271.7,
-                                                }, -- end of ["channels"]
-                                            }, -- end of [1]
-                                            [2] = {
-                                                ["channels"] = {
-                                                    [1] = 251,
-                                                    [2] = 133,
-                                                    [3] = 132,
-                                                    [4] = 138,
-                                                    [5] = 129,
-                                                    [6] = 140,
-                                                    [7] = 134.1,
-                                                    [8] = 310.1,
-                                                    [9] = 310.2,
-                                                    [10] = 305.1,
-                                                    [11] = 305.2,
-                                                    [12] = 305.3,
-                                                    [13] = 305.4,
-                                                    [14] = 305.5,
-                                                    [15] = 282,
-                                                    [16] = 306.1,
-                                                    [17] = 306.2,
-                                                    [18] = 130.2,
-                                                    [19] = 130.3,
-                                                    [20] = 130.4,
-                                                }, -- end of ["channels"]
-                                            }, -- end of [2]
-                                        }, -- end of ["Radio"]
-                                        ["skill"] = "Client",
-                                        ["speed"] = 138.88888888889,
-                                        ["type"] = "FA-18C_hornet",
-                                        ["unitId"] = 1604,
-                                        ["x"] = -326553.40994527,
-                                        ["y"] = 551355.15970414,
-                                    }, -- end of [3]
-                                    [4] = {
-                                        ["AddPropAircraft"] = {
-                                            ["InnerBoard"] = 0,
-                                            ["OuterBoard"] = 0,
-                                        }, -- end of ["AddPropAircraft"]
-                                        ["alt"] = 0,
-                                        ["alt_type"] = "BARO",
-                                        ["callsign"] = {
-                                            [1] = 3,
-                                            [2] = 2,
-                                            [3] = 4,
-                                            ["name"] = "Uzi24",
-                                        }, -- end of ["callsign"]
-                                        ["heading"] = 1.2650798809435,
-                                        ["livery_id"] = "VFA-37",
-                                        ["name"] = "DictKey_UnitName_3821",
-                                        ["onboard_num"] = "035",
-                                        ["parking"] = "4",
-                                        ["parking_id"] = "4",
-                                        ["payload"] = {
-                                            ["ammo_type"] = 1,
-                                            ["chaff"] = 60,
-                                            ["flare"] = 30,
-                                            ["fuel"] = 4900,
-                                            ["gun"] = 100,
-                                            ["pylons"] = {
-                                            }, -- end of ["pylons"]
-                                        }, -- end of ["payload"]
-                                        ["psi"] = -1.2650798809435,
-                                        ["Radio"] = {
-                                            [1] = {
-                                                ["channels"] = {
-                                                    [1] = 251,
-                                                    [2] = 291,
-                                                    [3] = 292,
-                                                    [4] = 293,
-                                                    [5] = 294,
-                                                    [6] = 271,
-                                                    [7] = 271.05,
-                                                    [8] = 271.1,
-                                                    [9] = 271.15,
-                                                    [10] = 271.2,
-                                                    [11] = 271.25,
-                                                    [12] = 271.3,
-                                                    [13] = 271.35,
-                                                    [14] = 271.4,
-                                                    [15] = 271.45,
-                                                    [16] = 271.5,
-                                                    [17] = 271.55,
-                                                    [18] = 271.6,
-                                                    [19] = 271.65,
-                                                    [20] = 271.7,
-                                                }, -- end of ["channels"]
-                                            }, -- end of [1]
-                                            [2] = {
-                                                ["channels"] = {
-                                                    [1] = 251,
-                                                    [2] = 133,
-                                                    [3] = 132,
-                                                    [4] = 138,
-                                                    [5] = 129,
-                                                    [6] = 140,
-                                                    [7] = 134.1,
-                                                    [8] = 310.1,
-                                                    [9] = 310.2,
-                                                    [10] = 305.1,
-                                                    [11] = 305.2,
-                                                    [12] = 305.3,
-                                                    [13] = 305.4,
-                                                    [14] = 305.5,
-                                                    [15] = 282,
-                                                    [16] = 306.1,
-                                                    [17] = 306.2,
-                                                    [18] = 130.2,
-                                                    [19] = 130.3,
-                                                    [20] = 130.4,
-                                                }, -- end of ["channels"]
-                                            }, -- end of [2]
-                                        }, -- end of ["Radio"]
-                                        ["skill"] = "Client",
-                                        ["speed"] = 138.88888888889,
-                                        ["type"] = "FA-18C_hornet",
-                                        ["unitId"] = 1605,
-                                        ["x"] = -326644.24511463,
-                                        ["y"] = 551413.79421076,
-                                    }, -- end of [4]
-                                }, -- end of ["units"]
-                                ["x"] = -326537.43179237,
-                                ["y"] = 551365.32588509,
-                            }, -- end of [10]
-                            [11] = {
-                                ["communication"] = true,
                                 ["frequency"] = 130.3,
                                 ["groupId"] = 815,
                                 ["hidden"] = false,
@@ -4969,8 +4685,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -363538.60598652,
                                 ["y"] = 554315.51014073,
-                            }, -- end of [11]
-                            [12] = {
+                            }, -- end of [10]
+                            [11] = {
                                 ["communication"] = false,
                                 ["frequency"] = 124,
                                 ["groupId"] = 867,
@@ -5231,8 +4947,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -361959.77109164,
                                 ["y"] = 577265.55981563,
-                            }, -- end of [12]
-                            [13] = {
+                            }, -- end of [11]
+                            [12] = {
                                 ["communication"] = false,
                                 ["frequency"] = 124,
                                 ["groupId"] = 876,
@@ -5493,8 +5209,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -365951.30373562,
                                 ["y"] = 541031.52087195,
-                            }, -- end of [13]
-                            [14] = {
+                            }, -- end of [12]
+                            [13] = {
                                 ["communication"] = false,
                                 ["frequency"] = 124,
                                 ["groupId"] = 877,
@@ -5755,8 +5471,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -366637.8503104,
                                 ["y"] = 531847.23687569,
-                            }, -- end of [14]
-                            [15] = {
+                            }, -- end of [13]
+                            [14] = {
                                 ["communication"] = false,
                                 ["frequency"] = 124,
                                 ["groupId"] = 880,
@@ -6017,8 +5733,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -363809.42904826,
                                 ["y"] = 567605.11199612,
-                            }, -- end of [15]
-                            [16] = {
+                            }, -- end of [14]
+                            [15] = {
                                 ["communication"] = false,
                                 ["frequency"] = 124,
                                 ["groupId"] = 881,
@@ -6279,7 +5995,7 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -363894.16165891,
                                 ["y"] = 559293.2895543,
-                            }, -- end of [16]
+                            }, -- end of [15]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] = {
@@ -17009,7 +16725,7 @@ mission = {
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1712464,
+    ["currentKey"] = 1713148,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -23293,11 +23009,11 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -277450.86724039,
-        ["centerY"] = 536849.26821815,
-        ["zoom"] = 640031.10542804,
+        ["centerX"] = -326514.77744733,
+        ["centerY"] = 551351.27118011,
+        ["zoom"] = 1790.7972588668,
     }, -- end of ["map"]
-    ["maxDictId"] = 4995,
+    ["maxDictId"] = 5002,
     ["pictureFileNameB"] = {
         [1] = "ResKey_ImageBriefing_2136",
     }, -- end of ["pictureFileNameB"]

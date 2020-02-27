@@ -43,7 +43,7 @@ Slots Rewards:
 Kobuleti:
 - 4x F-16C (Dodge 2)
 - 4x M-2000C (Ford 2)
-- 4x JF-17
+- 4x JF-17 (Chevy 2)
 
 Senaki:
 - 4x A-10C (Enfield 2)

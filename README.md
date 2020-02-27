@@ -14,7 +14,7 @@ The USA will free Georgia.
 
 When the campain begin...
 
-![SITAC](https://imgur.com/ASkhqO8)
+![SITAC](https://imgur.com/ASkhqO8.jpg)
 
 Batumi:
 - 4x A-10C (Enfield 1)

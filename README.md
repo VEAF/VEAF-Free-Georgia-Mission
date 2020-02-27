@@ -12,14 +12,14 @@ When the campain begin...
 
 Batumi:
 - 4x A-10C (Enfield 1)
-- 2x M-2000C
-- 2x F-16C
-- 2x JF-17
+- 2x M-2000C (Ford 1)
+- 2x F-16C (Dodge 1)
+- 2x JF-17 (Chevy 1)
 
 Stennis:
-- 4x F/A-18C
+- 4x F/A-18C (Uzei 1)
 - 4x F-14B (Pontiac 1)
-- 1x UH-1H
+- 2x UH-1H (Springfield 1+2)
 
 Tarawa:
 - 4x AV-8B (Colt 1)

@@ -29,12 +29,12 @@ Tarawa:
 - 4x AV-8B (Colt 1)
 
 FARP London (KM65 Zomleti):
-- 4x Mi-8
-- 4x SA342L
-- 4x SA342M
-- 4x SA342Minigun
-- 4x Ka50
-- 4x UH-1H
+- 4x SA342L (Springfield 3)
+- 4x SA342M (Springfield 4)
+- 4x SA342Minigun (Springfield 5)
+- 4x Mi-8MTV (Springfield 6)
+- 4x UH-1H (Springfield 7)
+- 4x Ka50 (Springfield 8)
 
 FARP Paris (GH03 Ochamchira):
 - n/a

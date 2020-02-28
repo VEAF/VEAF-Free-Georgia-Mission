@@ -75,12 +75,10 @@ function veafQra.initialize()
 		end
 	end
 
-	airbase = Airbase.getByName("Kutaisi")
-	veafQra.logInfo(string.format("TEST Airbase %s", airbase.getName(airbase)))
-
     for i, group in pairs(veafQra.groups) do
 
-		veafQra.logInfo(string.format("QRA %s is %s", veafQra.groups[i].group, veafQra.groups[i].status))
+		local airbase = Airbase.getByName(veafQra.groups[i].airbase)
+		veafQra.logInfo(string.format("QRA %s is %s near %s", veafQra.groups[i].group, veafQra.groups[i].status, airbase.getName(airbase)))
 
 	end
 	
@@ -95,7 +93,7 @@ function veafQra.eventHandler()
 
     for i, group in pairs(veafQra.groups) do
 	
-		airbase = Airbase.getByName(veafQra.groups[i].airbase)
+		local airbase = Airbase.getByName(veafQra.groups[i].airbase)
 
 		-- todo manage Blue In Zone ...
 		-- todo manage Blue Out Zone ...
@@ -105,7 +103,7 @@ function veafQra.eventHandler()
 		if veafQra.groups[i].status == "dead" and not veafQra.groups[i].inZone then
 			veafQra.logInfo(string.format("RELOAD %s", veafQra.groups[i].group))
 			veafQra.groups[i].status = "ready"
-			trigger.action.outTextForCoalition(2, string.format("Overlord: a new QRA group is praparing near %s", veafQra.groups[i].airbase),20)
+			trigger.action.outTextForCoalition(2, string.format("Overlord: a new QRA group is preparing near %s", veafQra.groups[i].airbase),20)
 		end
 
 		-- manage delay in spawn process
@@ -131,11 +129,6 @@ function veafQra.eventHandler()
 			trigger.action.outSoundForCoalition(2, "Radar Contact Closing Fast.ogg")
 		end
 
-
-		local group=Group.getByName(veafQra.groups[i].group)
-		if group then
-	      trigger.action.deactivateGroup(group)		
-		end
 	end
 	
 end
@@ -143,13 +136,38 @@ end
 
 -- config
 
+veafQra.logInfo("Loading configuration")
+
 veafQra.groups={
   ["Kutaisi"] =
     {   
       zone="Kutaisi",
-      -- zoneOut="Kutaisi Outer",
 	  group = "RED QRA Kutaisi",
 	  airbase = "Kutaisi",
+	  status = "ready",
+	  inZone = false,
+    },
+  ["Sukhumi"] =
+    {   
+      zone="Sukhumi",
+	  group = "RED QRA Sukhumi",
+	  airbase = "Sukhumi-Babushara",
+	  status = "ready",
+	  inZone = false,
+    },
+  ["Gudauta"] =
+    {   
+      zone="Gudauta",
+	  group = "RED QRA Gudauta",
+	  airbase = "Gudauta",
+	  status = "ready",
+	  inZone = false,
+    },
+  ["Sochi"] =
+    {   
+      zone="Sochi",
+	  group = "RED QRA Sochi",
+	  airbase = "Sochi-Adler",
 	  status = "ready",
 	  inZone = false,
     },

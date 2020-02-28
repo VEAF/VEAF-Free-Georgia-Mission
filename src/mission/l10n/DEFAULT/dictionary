@@ -390,6 +390,30 @@ trigger.action.setUserFlag(\"Kobuleti JF-17 Chevy 2\",0)",
     {name=\"Meet Mig-29*4\", description=\"RED Mig-29x4 (dogfight zone)\", disposable=true, information=\"They spawn near N41° 09' 31\\\" E043° 05' 08\\\"\"},\
 }\
 ",
+    ["DictKey_ActionText_5332"] = "veafQra.groups[\"Sukhumi\"].inZone=true\
+\
+",
+    ["DictKey_ActionText_5333"] = "Blue pushing to Sukhumi",
+    ["DictKey_ActionText_5334"] = "veafQra.groups[\"Sukhumi\"].inZone=false\
+\
+",
+    ["DictKey_ActionText_5335"] = "Blue leaving Sukhumi",
+    ["DictKey_ActionText_5336"] = "veafQra.groups[\"Gudauta\"].inZone=true\
+\
+",
+    ["DictKey_ActionText_5337"] = "Blue pushing to Gudauta",
+    ["DictKey_ActionText_5338"] = "veafQra.groups[\"Gudauta\"].inZone=false\
+\
+",
+    ["DictKey_ActionText_5339"] = "Blue leaving Gudauta",
+    ["DictKey_ActionText_5340"] = "veafQra.groups[\"Sochi\"].inZone=true\
+\
+",
+    ["DictKey_ActionText_5341"] = "Blue pushing to Sochi",
+    ["DictKey_ActionText_5342"] = "veafQra.groups[\"Sochi\"].inZone=false\
+\
+",
+    ["DictKey_ActionText_5343"] = "Blue leaving Sochi",
     ["DictKey_ActionText_950"] = "MA_buildMenu()",
     ["DictKey_descriptionBlueTask_3"] = "",
     ["DictKey_descriptionRedTask_2"] = "",
@@ -653,14 +677,14 @@ Here are the ATIS frequencies (only available on the RELEASE-CAUCASUS server)\
     ["DictKey_GroupName_2013"] = "Black Hawk Down",
     ["DictKey_GroupName_2016"] = "New Static Object #011",
     ["DictKey_GroupName_2019"] = "T4-Shell-B",
-    ["DictKey_GroupName_2031"] = "T1-Arco",
+    ["DictKey_GroupName_2031"] = "Arco",
     ["DictKey_GroupName_2036"] = "KC-135",
     ["DictKey_GroupName_204"] = "Dummies #002",
     ["DictKey_GroupName_2041"] = "KC-130",
     ["DictKey_GroupName_2046"] = "KC-135",
     ["DictKey_GroupName_2051"] = "Perry 1",
     ["DictKey_GroupName_2054"] = "UH-1H #005 Ship",
-    ["DictKey_GroupName_2058"] = "T3-Texaco",
+    ["DictKey_GroupName_2058"] = "Texaco",
     ["DictKey_GroupName_2066"] = "TEST heavy",
     ["DictKey_GroupName_2070"] = "",
     ["DictKey_GroupName_2073"] = "Training Range #007",
@@ -1167,7 +1191,7 @@ Here are the ATIS frequencies (only available on the RELEASE-CAUCASUS server)\
     ["DictKey_GroupName_4504"] = "F-16CM Vaziani #1",
     ["DictKey_GroupName_4512"] = "F-16CM Gudauta #2",
     ["DictKey_GroupName_4520"] = "F-16CM Vaziani #2",
-    ["DictKey_GroupName_4528"] = "T2-Shell",
+    ["DictKey_GroupName_4528"] = "Shell",
     ["DictKey_GroupName_4533"] = "F-15C Gudauta",
     ["DictKey_GroupName_454"] = "MiG-15 Vaziani",
     ["DictKey_GroupName_4543"] = "A-10C Sochi 2",
@@ -1236,13 +1260,13 @@ Here are the ATIS frequencies (only available on the RELEASE-CAUCASUS server)\
     ["DictKey_GroupName_4846"] = "Psebay sam group",
     ["DictKey_GroupName_4849"] = "US air defense",
     ["DictKey_GroupName_4852"] = "F-14B Maykop",
-    ["DictKey_GroupName_4862"] = "T3-Texaco escort",
-    ["DictKey_GroupName_4868"] = "T1-Arco escort",
+    ["DictKey_GroupName_4862"] = "Texaco escort",
+    ["DictKey_GroupName_4868"] = "Arco escort",
     ["DictKey_GroupName_4874"] = "T5-Petrolsky escort",
     ["DictKey_GroupName_4881"] = "A2-Overlordsky escort",
     ["DictKey_GroupName_4887"] = "T4-Shell-B escort",
     ["DictKey_GroupName_489"] = "L-39C Vaziani",
-    ["DictKey_GroupName_4893"] = "T2-Shell escort",
+    ["DictKey_GroupName_4893"] = "Shell escort",
     ["DictKey_GroupName_4902"] = "UH-1H Kaspi #002",
     ["DictKey_GroupName_4905"] = "UH-1H Kaspi #003",
     ["DictKey_GroupName_4908"] = "UH-1H Kaspi #004",

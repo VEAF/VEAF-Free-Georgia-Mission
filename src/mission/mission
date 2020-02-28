@@ -16753,7 +16753,7 @@ mission = {
                                             ["name"] = "Uzi21",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = 1.0313556771098,
+                                        ["heading"] = 1.0313556771094,
                                         ["livery_id"] = "VFA-37",
                                         ["name"] = "DictKey_UnitName_5328",
                                         ["onboard_num"] = "1050",
@@ -16793,7 +16793,7 @@ mission = {
                                                 }, -- end of [9]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.0313556771098,
+                                        ["psi"] = -1.0313556771094,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -28509,7 +28509,7 @@ mission = {
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1736551,
+    ["currentKey"] = 1737707,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -35726,10 +35726,9 @@ mission = {
             [13] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5282\"));",
             [14] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5113\"));",
             [15] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5107\"));",
-            [16] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5283\"));a_deactivate_group(928);a_deactivate_group(926);a_deactivate_group(927);a_deactivate_group(929);",
-            [17] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5311\"));a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_5312\"), 10, false, 0);",
-            [18] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5313\"));a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_5314\"), 10, false, 0);",
-            [19] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5324\"));",
+            [16] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5311\"));a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_5312\"), 10, false, 0);",
+            [17] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5313\"));a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_5314\"), 10, false, 0);",
+            [18] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5324\"));",
         }, -- end of ["actions"]
         ["conditions"] = {
             [1] = "return(true)",
@@ -35747,10 +35746,9 @@ mission = {
             [13] = "return(c_coalition_has_airdrome(2, 24) )",
             [14] = "return(c_coalition_has_airdrome(2, 25) )",
             [15] = "return(true)",
-            [16] = "return(true)",
-            [17] = "return(c_part_of_group_in_zone(906, 1463) or c_part_of_group_in_zone(909, 1463) or c_part_of_group_in_zone(907, 1463) or c_part_of_group_in_zone(908, 1463) or c_part_of_group_in_zone(911, 1463) or c_part_of_group_in_zone(913, 1463) or c_part_of_group_in_zone(912, 1463) or c_part_of_group_in_zone(910, 1463) or c_part_of_group_in_zone(602, 1463) or c_part_of_group_in_zone(428, 1463) )",
-            [18] = "return(c_all_of_group_out_zone(906, 1631) or c_all_of_group_out_zone(909, 1631) or c_all_of_group_out_zone(907, 1631) or c_all_of_group_out_zone(908, 1631) or c_all_of_group_out_zone(911, 1631) or c_all_of_group_out_zone(913, 1631) or c_all_of_group_out_zone(912, 1631) or c_all_of_group_out_zone(910, 1631) or c_all_of_group_out_zone(602, 1631) or c_all_of_group_out_zone(428, 1631) )",
-            [19] = "return(true)",
+            [16] = "return(c_part_of_group_in_zone(906, 1463) or c_part_of_group_in_zone(909, 1463) or c_part_of_group_in_zone(907, 1463) or c_part_of_group_in_zone(908, 1463) or c_part_of_group_in_zone(911, 1463) or c_part_of_group_in_zone(913, 1463) or c_part_of_group_in_zone(912, 1463) or c_part_of_group_in_zone(910, 1463) or c_part_of_group_in_zone(602, 1463) or c_part_of_group_in_zone(428, 1463) )",
+            [17] = "return(c_all_of_group_out_zone(906, 1631) or c_all_of_group_out_zone(909, 1631) or c_all_of_group_out_zone(907, 1631) or c_all_of_group_out_zone(908, 1631) or c_all_of_group_out_zone(911, 1631) or c_all_of_group_out_zone(913, 1631) or c_all_of_group_out_zone(912, 1631) or c_all_of_group_out_zone(910, 1631) or c_all_of_group_out_zone(602, 1631) or c_all_of_group_out_zone(428, 1631) )",
+            [18] = "return(true)",
         }, -- end of ["conditions"]
         ["custom"] = {
         }, -- end of ["custom"]
@@ -35783,7 +35781,6 @@ mission = {
             [16] = true,
             [17] = true,
             [18] = true,
-            [19] = true,
         }, -- end of ["flag"]
         ["func"] = {
             [2] = "if mission.trig.conditions[2]() then mission.trig.actions[2]() end",
@@ -35796,13 +35793,12 @@ mission = {
             [9] = "if mission.trig.conditions[9]() then mission.trig.actions[9]() end",
             [10] = "if mission.trig.conditions[10]() then mission.trig.actions[10]() end",
             [11] = "if mission.trig.conditions[11]() then mission.trig.actions[11]() end",
+            [16] = "if mission.trig.conditions[16]() then if not mission.trig.flag[16] then mission.trig.actions[16](); mission.trig.flag[16] = true;end; else mission.trig.flag[16] = false; end;",
             [17] = "if mission.trig.conditions[17]() then if not mission.trig.flag[17] then mission.trig.actions[17](); mission.trig.flag[17] = true;end; else mission.trig.flag[17] = false; end;",
             [18] = "if mission.trig.conditions[18]() then if not mission.trig.flag[18] then mission.trig.actions[18](); mission.trig.flag[18] = true;end; else mission.trig.flag[18] = false; end;",
-            [19] = "if mission.trig.conditions[19]() then if not mission.trig.flag[19] then mission.trig.actions[19](); mission.trig.flag[19] = true;end; else mission.trig.flag[19] = false; end;",
         }, -- end of ["func"]
         ["funcStartup"] = {
             [1] = "if mission.trig.conditions[1]() then mission.trig.actions[1]() end",
-            [16] = "if mission.trig.conditions[16]() then mission.trig.actions[16]() end",
         }, -- end of ["funcStartup"]
     }, -- end of ["trig"]
     ["triggers"] = {
@@ -36690,57 +36686,6 @@ mission = {
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
-                    ["KeyDict_text"] = "DictKey_ActionText_5283",
-                    ["predicate"] = "a_do_script",
-                    ["text"] = "DictKey_ActionText_5283",
-                }, -- end of [1]
-                [2] = {
-                    ["ai_task"] = {
-                        [1] = "",
-                        [2] = "",
-                    }, -- end of ["ai_task"]
-                    ["group"] = 928,
-                    ["predicate"] = "a_deactivate_group",
-                }, -- end of [2]
-                [3] = {
-                    ["ai_task"] = {
-                        [1] = "",
-                        [2] = "",
-                    }, -- end of ["ai_task"]
-                    ["group"] = 926,
-                    ["predicate"] = "a_deactivate_group",
-                }, -- end of [3]
-                [4] = {
-                    ["ai_task"] = {
-                        [1] = "",
-                        [2] = "",
-                    }, -- end of ["ai_task"]
-                    ["group"] = 927,
-                    ["predicate"] = "a_deactivate_group",
-                }, -- end of [4]
-                [5] = {
-                    ["ai_task"] = {
-                        [1] = "",
-                        [2] = "",
-                    }, -- end of ["ai_task"]
-                    ["group"] = 929,
-                    ["predicate"] = "a_deactivate_group",
-                }, -- end of [5]
-            }, -- end of ["actions"]
-            ["colorItem"] = "0xffff00ff",
-            ["comment"] = "QRA INIT",
-            ["eventlist"] = "",
-            ["predicate"] = "triggerStart",
-            ["rules"] = {
-            }, -- end of ["rules"]
-        }, -- end of [16]
-        [17] = {
-            ["actions"] = {
-                [1] = {
-                    ["ai_task"] = {
-                        [1] = "",
-                        [2] = "",
-                    }, -- end of ["ai_task"]
                     ["KeyDict_text"] = "DictKey_ActionText_5311",
                     ["predicate"] = "a_do_script",
                     ["text"] = "DictKey_ActionText_5311",
@@ -36852,8 +36797,8 @@ mission = {
                     ["zone"] = 1463,
                 }, -- end of [19]
             }, -- end of ["rules"]
-        }, -- end of [17]
-        [18] = {
+        }, -- end of [16]
+        [17] = {
             ["actions"] = {
                 [1] = {
                     ["ai_task"] = {
@@ -36971,8 +36916,8 @@ mission = {
                     ["zone"] = 1631,
                 }, -- end of [19]
             }, -- end of ["rules"]
-        }, -- end of [18]
-        [19] = {
+        }, -- end of [17]
+        [18] = {
             ["actions"] = {
                 [1] = {
                     ["ai_task"] = {
@@ -36990,7 +36935,7 @@ mission = {
             ["predicate"] = "triggerFront",
             ["rules"] = {
             }, -- end of ["rules"]
-        }, -- end of [19]
+        }, -- end of [18]
     }, -- end of ["trigrules"]
     ["version"] = 16,
     ["weather"] = {

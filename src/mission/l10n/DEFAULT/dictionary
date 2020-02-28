@@ -193,6 +193,7 @@ veafSecurity.initialize()\
 veafCombatZone.initialize()\
 veafInterpreter.initialize()\
 veafCapture.initialize()\
+veafQra.initialize()\
 ",
     ["DictKey_ActionText_3296"] = "veafAssets.Assets = {\
     -- list the assets common to all missions below\
@@ -345,6 +346,50 @@ trigger.action.setUserFlag(\"Paris Ka-50 Enfield 9\",0)\
     ["DictKey_ActionText_5282"] = "trigger.action.setUserFlag(\"Kobuleti F-16C Dodge 2\",0)\
 trigger.action.setUserFlag(\"Kobuleti M-2000C Ford 2\",0)\
 trigger.action.setUserFlag(\"Kobuleti JF-17 Chevy 2\",0)",
+    ["DictKey_ActionText_5283"] = "qra = {\
+ [\"Kutaisi\"] = { \
+   status = \"ready\",\
+   blueInZone = false,\
+ },   \
+ [\"Gudauta\"] = { \
+   status = \"ready\",\
+   blueInZone = false,\
+ },\
+ [\"Sukhumi\"] = { \
+   status = \"ready\",\
+   blueInZone = false,\
+ },\
+}\
+",
+    ["DictKey_ActionText_5311"] = "veafQra.groups[\"Kutaisi\"].inZone=true\
+\
+",
+    ["DictKey_ActionText_5312"] = "Blue pushing to Kutaisi",
+    ["DictKey_ActionText_5313"] = "veafQra.groups[\"Kutaisi\"].inZone=false\
+\
+",
+    ["DictKey_ActionText_5314"] = "Blue leaving Kutaisi",
+    ["DictKey_ActionText_5315"] = "",
+    ["DictKey_ActionText_5316"] = "",
+    ["DictKey_ActionText_5317"] = "",
+    ["DictKey_ActionText_5319"] = "",
+    ["DictKey_ActionText_5320"] = "",
+    ["DictKey_ActionText_5321"] = "",
+    ["DictKey_ActionText_5322"] = "",
+    ["DictKey_ActionText_5323"] = "",
+    ["DictKey_ActionText_5324"] = "veafQra.eventHandler()",
+    ["DictKey_ActionText_5326"] = "veafAssets.Assets = {\
+    -- list the assets common to all missions below\
+    {name=\"T1-Arco\", description=\"Arco (KC-135)\", information=\"Tacan 6Y\\nVHF 138.2 Mhz\"}, \
+    {name=\"T2-Shell\", description=\"Shell (KC-135 MPRS)\", information=\"Tacan 14Y\\nVHF 134.7 Mhz\"},  \
+    {name=\"T3-Texaco\", description=\"Texaco (KC-135 MPRS)\", information=\"Tacan 12Y\\nVHF 132.5 Mhz\"},  \
+    {name=\"A1-Overlord\", description=\"Overlord (E-2D)\", information=\"UHF 251 Mhz\"},  \
+    {name=\"Meet Mig-21\", description=\"RED Mig-21 (dogfight zone)\", disposable=true, information=\"They spawn near N41° 09' 31\\\" E043° 05' 08\\\"\"},\
+    {name=\"Meet Mig-29\", description=\"RED Mig-29 (dogfight zone)\", disposable=true, information=\"They spawn near N41° 09' 31\\\" E043° 05' 08\\\"\" },\
+    {name=\"Meet Mig-29*2\", description=\"RED Mig-29x2 (dogfight zone)\", disposable=true, information=\"They spawn near N41° 09' 31\\\" E043° 05' 08\\\"\"},\
+    {name=\"Meet Mig-29*4\", description=\"RED Mig-29x4 (dogfight zone)\", disposable=true, information=\"They spawn near N41° 09' 31\\\" E043° 05' 08\\\"\"},\
+}\
+",
     ["DictKey_ActionText_950"] = "MA_buildMenu()",
     ["DictKey_descriptionBlueTask_3"] = "",
     ["DictKey_descriptionRedTask_2"] = "",
@@ -1249,7 +1294,11 @@ Here are the ATIS frequencies (only available on the RELEASE-CAUCASUS server)\
     ["DictKey_GroupName_5240"] = "Paris Mi-8MTV2 Enfield 7",
     ["DictKey_GroupName_5254"] = "Paris Mi-8MTV2 Enfield 8",
     ["DictKey_GroupName_5268"] = "Paris Ka-50 Enfield 9",
+    ["DictKey_GroupName_5284"] = "RED QRA Kutaisi",
     ["DictKey_GroupName_529"] = "UH-1H Player #003",
+    ["DictKey_GroupName_5290"] = "RED QRA Sukhumi",
+    ["DictKey_GroupName_5296"] = "RED QRA Gudauta",
+    ["DictKey_GroupName_5304"] = "RED QRA Sochi",
     ["DictKey_GroupName_535"] = "FARP #002",
     ["DictKey_GroupName_538"] = "FARP #003",
     ["DictKey_GroupName_541"] = "FARP #004",
@@ -3349,9 +3398,20 @@ Here are the ATIS frequencies (only available on the RELEASE-CAUCASUS server)\
     ["DictKey_UnitName_5270"] = "Pilot #079",
     ["DictKey_UnitName_5271"] = "Pilot #080",
     ["DictKey_UnitName_5272"] = "Pilot #081",
+    ["DictKey_UnitName_5285"] = "Pilot #082",
+    ["DictKey_UnitName_5289"] = "Pilot #084",
+    ["DictKey_UnitName_5291"] = "Pilot #085",
+    ["DictKey_UnitName_5292"] = "Pilot #087",
+    ["DictKey_UnitName_5297"] = "Pilot #089",
+    ["DictKey_UnitName_5298"] = "Pilot #087",
     ["DictKey_UnitName_53"] = "",
     ["DictKey_UnitName_530"] = "Pilot #074",
+    ["DictKey_UnitName_5302"] = "Pilot #091",
+    ["DictKey_UnitName_5303"] = "Pilot #090",
+    ["DictKey_UnitName_5305"] = "Pilot #092",
+    ["DictKey_UnitName_5306"] = "Pilot #090",
     ["DictKey_UnitName_531"] = "Pilot #075",
+    ["DictKey_UnitName_5310"] = "Pilot #093",
     ["DictKey_UnitName_532"] = "Pilot #076",
     ["DictKey_UnitName_533"] = "Pilot #077",
     ["DictKey_UnitName_536"] = "",
@@ -5218,6 +5278,18 @@ Here are the ATIS frequencies (only available on the RELEASE-CAUCASUS server)\
     ["DictKey_WptName_528"] = "",
     ["DictKey_WptName_5280"] = "Gudauta",
     ["DictKey_WptName_5281"] = "Sukhumi",
+    ["DictKey_WptName_5286"] = "",
+    ["DictKey_WptName_5287"] = "",
+    ["DictKey_WptName_5288"] = "",
+    ["DictKey_WptName_5293"] = "",
+    ["DictKey_WptName_5294"] = "",
+    ["DictKey_WptName_5295"] = "",
+    ["DictKey_WptName_5299"] = "",
+    ["DictKey_WptName_5300"] = "",
+    ["DictKey_WptName_5301"] = "",
+    ["DictKey_WptName_5307"] = "",
+    ["DictKey_WptName_5308"] = "",
+    ["DictKey_WptName_5309"] = "",
     ["DictKey_WptName_534"] = "",
     ["DictKey_WptName_537"] = "",
     ["DictKey_WptName_540"] = "",

@@ -16678,8 +16678,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -312397.51672688,
-                                            ["y"] = 654632.8732862,
+                                            ["x"] = -309347.54984111,
+                                            ["y"] = 659031.26501326,
                                         }, -- end of [1]
                                         [2] = {
                                             ["action"] = "Turning Point",
@@ -16753,7 +16753,7 @@ mission = {
                                             ["name"] = "Uzi21",
                                         }, -- end of ["callsign"]
                                         ["hardpoint_racks"] = true,
-                                        ["heading"] = 1.0313556771094,
+                                        ["heading"] = 1.0724003706687,
                                         ["livery_id"] = "VFA-37",
                                         ["name"] = "DictKey_UnitName_5328",
                                         ["onboard_num"] = "1050",
@@ -16793,7 +16793,7 @@ mission = {
                                                 }, -- end of [9]
                                             }, -- end of ["pylons"]
                                         }, -- end of ["payload"]
-                                        ["psi"] = -1.0313556771094,
+                                        ["psi"] = -1.0724003706687,
                                         ["Radio"] = {
                                             [1] = {
                                                 ["channels"] = {
@@ -16848,12 +16848,12 @@ mission = {
                                         ["speed"] = 179.86111111111,
                                         ["type"] = "FA-18C_hornet",
                                         ["unitId"] = 2217,
-                                        ["x"] = -312397.51672688,
-                                        ["y"] = 654632.8732862,
+                                        ["x"] = -309347.54984111,
+                                        ["y"] = 659031.26501326,
                                     }, -- end of [1]
                                 }, -- end of ["units"]
-                                ["x"] = -312397.51672688,
-                                ["y"] = 654632.8732862,
+                                ["x"] = -309347.54984111,
+                                ["y"] = 659031.26501326,
                             }, -- end of [24]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
@@ -28509,7 +28509,7 @@ mission = {
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1737707,
+    ["currentKey"] = 1745799,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -35665,9 +35665,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -306049.29860474,
-        ["centerY"] = 635018.14756961,
-        ["zoom"] = 651883.01465492,
+        ["centerX"] = -313154.44715957,
+        ["centerY"] = 633855.92276406,
+        ["zoom"] = 196995.93180324,
     }, -- end of ["map"]
     ["maxDictId"] = 5331,
     ["pictureFileNameB"] = {
@@ -35746,8 +35746,8 @@ mission = {
             [13] = "return(c_coalition_has_airdrome(2, 24) )",
             [14] = "return(c_coalition_has_airdrome(2, 25) )",
             [15] = "return(true)",
-            [16] = "return(c_part_of_group_in_zone(906, 1463) or c_part_of_group_in_zone(909, 1463) or c_part_of_group_in_zone(907, 1463) or c_part_of_group_in_zone(908, 1463) or c_part_of_group_in_zone(911, 1463) or c_part_of_group_in_zone(913, 1463) or c_part_of_group_in_zone(912, 1463) or c_part_of_group_in_zone(910, 1463) or c_part_of_group_in_zone(602, 1463) or c_part_of_group_in_zone(428, 1463) )",
-            [17] = "return(c_all_of_group_out_zone(906, 1631) or c_all_of_group_out_zone(909, 1631) or c_all_of_group_out_zone(907, 1631) or c_all_of_group_out_zone(908, 1631) or c_all_of_group_out_zone(911, 1631) or c_all_of_group_out_zone(913, 1631) or c_all_of_group_out_zone(912, 1631) or c_all_of_group_out_zone(910, 1631) or c_all_of_group_out_zone(602, 1631) or c_all_of_group_out_zone(428, 1631) )",
+            [16] = "return(c_part_of_group_in_zone(906, 1463) or c_part_of_group_in_zone(909, 1463) or c_part_of_group_in_zone(907, 1463) or c_part_of_group_in_zone(908, 1463) or c_part_of_group_in_zone(911, 1463) or c_part_of_group_in_zone(913, 1463) or c_part_of_group_in_zone(912, 1463) or c_part_of_group_in_zone(910, 1463) or c_part_of_group_in_zone(602, 1463) or c_part_of_group_in_zone(428, 1463) or c_part_of_group_in_zone(930, 1463) )",
+            [17] = "return(c_all_of_group_out_zone(906, 1631) or c_all_of_group_out_zone(909, 1631) or c_all_of_group_out_zone(907, 1631) or c_all_of_group_out_zone(908, 1631) or c_all_of_group_out_zone(911, 1631) or c_all_of_group_out_zone(913, 1631) or c_all_of_group_out_zone(912, 1631) or c_all_of_group_out_zone(910, 1631) or c_all_of_group_out_zone(602, 1631) or c_all_of_group_out_zone(428, 1631) or c_all_of_group_out_zone(930, 1631) )",
             [18] = "return(true)",
         }, -- end of ["conditions"]
         ["custom"] = {
@@ -35795,7 +35795,7 @@ mission = {
             [11] = "if mission.trig.conditions[11]() then mission.trig.actions[11]() end",
             [16] = "if mission.trig.conditions[16]() then if not mission.trig.flag[16] then mission.trig.actions[16](); mission.trig.flag[16] = true;end; else mission.trig.flag[16] = false; end;",
             [17] = "if mission.trig.conditions[17]() then if not mission.trig.flag[17] then mission.trig.actions[17](); mission.trig.flag[17] = true;end; else mission.trig.flag[17] = false; end;",
-            [18] = "if mission.trig.conditions[18]() then if not mission.trig.flag[18] then mission.trig.actions[18](); mission.trig.flag[18] = true;end; else mission.trig.flag[18] = false; end;",
+            [18] = "if mission.trig.conditions[18]() then mission.trig.actions[18]() end",
         }, -- end of ["func"]
         ["funcStartup"] = {
             [1] = "if mission.trig.conditions[1]() then mission.trig.actions[1]() end",
@@ -36796,6 +36796,15 @@ mission = {
                     ["predicate"] = "c_part_of_group_in_zone",
                     ["zone"] = 1463,
                 }, -- end of [19]
+                [20] = {
+                    ["predicate"] = "or",
+                }, -- end of [20]
+                [21] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 930,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1463,
+                }, -- end of [21]
             }, -- end of ["rules"]
         }, -- end of [16]
         [17] = {
@@ -36915,6 +36924,15 @@ mission = {
                     ["predicate"] = "c_all_of_group_out_zone",
                     ["zone"] = 1631,
                 }, -- end of [19]
+                [20] = {
+                    ["predicate"] = "or",
+                }, -- end of [20]
+                [21] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 930,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1631,
+                }, -- end of [21]
             }, -- end of ["rules"]
         }, -- end of [17]
         [18] = {
@@ -36932,7 +36950,7 @@ mission = {
             ["colorItem"] = "0xffff00ff",
             ["comment"] = "QRA Handler",
             ["eventlist"] = "",
-            ["predicate"] = "triggerFront",
+            ["predicate"] = "triggerContinious",
             ["rules"] = {
             }, -- end of ["rules"]
         }, -- end of [18]

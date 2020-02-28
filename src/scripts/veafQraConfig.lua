@@ -66,13 +66,22 @@ function veafQra.initialize()
 	--veafCapture.displayReport()
 	
     for i, group in pairs(veafQra.groups) do
-		veafQra.groups[i]:status="ready"
-		veafQra.groups[i]:inZone=false
+		veafQra.groups[i].status="ready"
+		veafQra.groups[i].inZone=false
 
-		local unitGroup=Group.getByName(veafQra.groups[i]:name)
+		local unitGroup=Group.getByName(veafQra.groups[i].group)
 		if unitGroup then
 	      trigger.action.deactivateGroup(unitGroup)		
 		end
+	end
+
+	airbase = Airbase.getByName("Kutaisi")
+	veafQra.logInfo(string.format("TEST Airbase %s", airbase.getName(airbase)))
+
+    for i, group in pairs(veafQra.groups) do
+
+		veafQra.logInfo(string.format("QRA %s is %s", veafQra.groups[i].group, veafQra.groups[i].status))
+
 	end
 	
 	-- mist.addEventHandler(veafQra.eventHandler)
@@ -86,29 +95,44 @@ function veafQra.eventHandler()
 
     for i, group in pairs(veafQra.groups) do
 	
-		airbase = Airbase.getByName(veafQra.groups[i]:airbase)
-		
+		airbase = Airbase.getByName(veafQra.groups[i].airbase)
+
 		-- todo manage Blue In Zone ...
 		-- todo manage Blue Out Zone ...
+
+		-- manage QRA reload
+		-- if QRA is dead and no blue in zone
+		if veafQra.groups[i].status == "dead" and not veafQra.groups[i].inZone then
+			veafQra.logInfo(string.format("RELOAD %s", veafQra.groups[i].group))
+			veafQra.groups[i].status = "ready"
+			trigger.action.outTextForCoalition(2, string.format("Overlord: a new QRA group is praparing near %s", veafQra.groups[i].airbase),20)
+		end
+
+		-- manage delay in spawn process
+		if veafQra.groups[i].status == "spawn" then
+			veafQra.groups[i].spawnTime = veafQra.groups[i].spawnTime+1
+		end
+		-- manage QRA dead
+		-- if QRA is Ready, attached airbase is RED, and BLUE is in zone: POPUP group	
+		if veafQra.groups[i].status == "spawn" and veafQra.groups[i].spawnTime > 30 and not Group.getByName(veafQra.groups[i].group) then
+			veafQra.logInfo(string.format("DEAD %s", veafQra.groups[i].group))
+			veafQra.groups[i].status = "dead"
+			trigger.action.outTextForCoalition(2, string.format("Overlord: group %s faded", veafQra.groups[i].airbase),20)
+		end
 		
 		-- manage QRA spawn		
 		-- if QRA is Ready, attached airbase is RED, and BLUE is in zone: POPUP group
-		if veafQra.groups[i]:status == "ready" and airbase.getCoalition().side == 1 and veafQra.groups[i]:inZone then
-			veafQra.groups[i]:status="doing"
-            mist.respawnGroup(veafQra.groups[i]:group,true)
-			trigger.action.outTextForCoalition(2, string.format("Overlord: popup group near %s", veafQra.groups[i]:airbase),20)
-			trigger.action.outSoundForCoalition("Radar Contact Closing Fast.ogg")
+		if veafQra.groups[i].status == "ready" and airbase.getCoalition(airbase) == 1 and veafQra.groups[i].inZone then
+			veafQra.logInfo(string.format("SPAWN %s", veafQra.groups[i].group))
+			veafQra.groups[i].status = "spawn"
+			veafQra.groups[i].spawnTime = 0
+            mist.respawnGroup(veafQra.groups[i].group,true)
+			trigger.action.outTextForCoalition(2, string.format("Overlord: popup group near %s", veafQra.groups[i].airbase),20)
+			trigger.action.outSoundForCoalition(2, "Radar Contact Closing Fast.ogg")
 		end
 
-		-- manage QRA dead
-		-- if QRA is Ready, attached airbase is RED, and BLUE is in zone: POPUP group
-		
-		if veafQra.groups[i]:status == "doing" and not Group.getByName(veafQra.groups[i]:group) then
-			veafQra.groups[i]:status = "dead"
-			trigger.action.outTextForCoalition(2, string.format("Overlord: group %s faded", veafQra.groups[i]:airbase),20)
-		end
 
-		local group=Group.getByName(veafQra.groups[i]:name)
+		local group=Group.getByName(veafQra.groups[i].group)
 		if group then
 	      trigger.action.deactivateGroup(group)		
 		end

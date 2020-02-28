@@ -62,16 +62,16 @@ function veafQra.initialize()
     -- veafQra.buildRadioMenu()
 	
 	
-	veafCapture.updateAirports(false)
-	veafCapture.displayReport()
+	--veafCapture.updateAirports(false)
+	--veafCapture.displayReport()
 	
-    for i = 1, #veafQra.groups do
+    for i, group in pairs(veafQra.groups) do
 		veafQra.groups[i]:status="ready"
 		veafQra.groups[i]:inZone=false
 
-		local group=Group.getByName(veafQra.groups[i]:name)
-		if group then
-	      trigger.action.deactivateGroup(group)		
+		local unitGroup=Group.getByName(veafQra.groups[i]:name)
+		if unitGroup then
+	      trigger.action.deactivateGroup(unitGroup)		
 		end
 	end
 	
@@ -84,7 +84,7 @@ end
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 function veafQra.eventHandler()
 
-    for i = 1, #veafQra.groups do
+    for i, group in pairs(veafQra.groups) do
 	
 		airbase = Airbase.getByName(veafQra.groups[i]:airbase)
 		

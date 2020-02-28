@@ -180,6 +180,8 @@ end
 
 ---- config
 
+veafCapture.logInfo("Loading configuration")
+
 veafCapture.Airports = {
 
     -- airports
@@ -204,9 +206,6 @@ veafCapture.Airports = {
 	  waypoint = "WP06",
 	},
 }
-
-
-veafCapture.logInfo("Loading configuration")
 
 -- Caucasus Airports (others are neutral)
 --------------------

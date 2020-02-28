@@ -8510,175 +8510,6 @@ mission = {
                             }, -- end of [3]
                             [4] = {
                                 ["communication"] = true,
-                                ["frequency"] = 130.5,
-                                ["groupId"] = 377,
-                                ["hidden"] = false,
-                                ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_2019",
-                                ["radioSet"] = true,
-                                ["route"] = {
-                                    ["points"] = {
-                                        [1] = {
-                                            ["action"] = "Turning Point",
-                                            ["alt"] = 4572,
-                                            ["alt_type"] = "BARO",
-                                            ["ETA"] = 0,
-                                            ["ETA_locked"] = true,
-                                            ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_2021",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
-                                            ["speed"] = 133.61111111111,
-                                            ["speed_locked"] = true,
-                                            ["task"] = {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = {
-                                                    ["tasks"] = {
-                                                        [1] = {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "Tanker",
-                                                            ["number"] = 1,
-                                                            ["params"] = {
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                        [2] = {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 2,
-                                                            ["params"] = {
-                                                                ["action"] = {
-                                                                    ["id"] = "ActivateBeacon",
-                                                                    ["params"] = {
-                                                                        ["AA"] = true,
-                                                                        ["bearing"] = true,
-                                                                        ["callsign"] = "SHB",
-                                                                        ["channel"] = 14,
-                                                                        ["frequency"] = 1101000000,
-                                                                        ["modeChannel"] = "Y",
-                                                                        ["system"] = 4,
-                                                                        ["type"] = 4,
-                                                                        ["unitId"] = 938,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [2]
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = -363727.00846599,
-                                            ["y"] = 564289.72792314,
-                                        }, -- end of [1]
-                                        [2] = {
-                                            ["action"] = "Turning Point",
-                                            ["alt"] = 3657.6,
-                                            ["alt_type"] = "BARO",
-                                            ["ETA"] = 179.61906795713,
-                                            ["ETA_locked"] = false,
-                                            ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_2023",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
-                                            ["speed"] = 133.61111111111,
-                                            ["speed_locked"] = true,
-                                            ["task"] = {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = {
-                                                    ["tasks"] = {
-                                                        [1] = {
-                                                            ["auto"] = false,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "Orbit",
-                                                            ["number"] = 1,
-                                                            ["params"] = {
-                                                                ["altitude"] = 4572,
-                                                                ["altitudeEdited"] = true,
-                                                                ["pattern"] = "Race-Track",
-                                                                ["speed"] = 133.61111111111,
-                                                                ["speedEdited"] = true,
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = -341238.97031083,
-                                            ["y"] = 563708.14072947,
-                                        }, -- end of [2]
-                                        [3] = {
-                                            ["action"] = "Turning Point",
-                                            ["alt"] = 3657.6,
-                                            ["alt_type"] = "BARO",
-                                            ["ETA"] = 529.10113509283,
-                                            ["ETA_locked"] = false,
-                                            ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_2024",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
-                                            ["speed"] = 133.61111111111,
-                                            ["speed_locked"] = true,
-                                            ["task"] = {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = {
-                                                    ["tasks"] = {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = -314098.23460631,
-                                            ["y"] = 525711.11074316,
-                                        }, -- end of [3]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["start_time"] = 0,
-                                ["task"] = "Refueling",
-                                ["tasks"] = {
-                                }, -- end of ["tasks"]
-                                ["uncontrolled"] = false,
-                                ["units"] = {
-                                    [1] = {
-                                        ["alt"] = 4572,
-                                        ["alt_type"] = "BARO",
-                                        ["callsign"] = {
-                                            [1] = 3,
-                                            [2] = 1,
-                                            [3] = 1,
-                                            ["name"] = "Shell11",
-                                        }, -- end of ["callsign"]
-                                        ["heading"] = -0.025856305359356,
-                                        ["livery_id"] = "Standard USAF",
-                                        ["name"] = "DictKey_UnitName_2020",
-                                        ["onboard_num"] = "922",
-                                        ["payload"] = {
-                                            ["chaff"] = 0,
-                                            ["flare"] = 0,
-                                            ["fuel"] = 90700,
-                                            ["gun"] = 100,
-                                            ["pylons"] = {
-                                            }, -- end of ["pylons"]
-                                        }, -- end of ["payload"]
-                                        ["psi"] = 0.025856305359356,
-                                        ["skill"] = "Excellent",
-                                        ["speed"] = 133.61111111111,
-                                        ["type"] = "KC-135",
-                                        ["unitId"] = 938,
-                                        ["x"] = -363727.00846599,
-                                        ["y"] = 564289.72792314,
-                                    }, -- end of [1]
-                                }, -- end of ["units"]
-                                ["x"] = -363727.00846599,
-                                ["y"] = 564289.72792314,
-                            }, -- end of [4]
-                            [5] = {
-                                ["communication"] = true,
                                 ["frequency"] = 305,
                                 ["groupId"] = 428,
                                 ["hidden"] = false,
@@ -9260,8 +9091,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -326537.43179237,
                                 ["y"] = 551365.32588509,
-                            }, -- end of [5]
-                            [6] = {
+                            }, -- end of [4]
+                            [5] = {
                                 ["communication"] = true,
                                 ["frequency"] = 124,
                                 ["groupId"] = 602,
@@ -10259,8 +10090,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -326537.43179237,
                                 ["y"] = 551365.32588509,
-                            }, -- end of [6]
-                            [7] = {
+                            }, -- end of [5]
+                            [6] = {
                                 ["communication"] = true,
                                 ["frequency"] = 121.975,
                                 ["groupId"] = 606,
@@ -10420,8 +10251,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -361927.75885254,
                                 ["y"] = 572842.14959088,
-                            }, -- end of [7]
-                            [8] = {
+                            }, -- end of [6]
+                            [7] = {
                                 ["communication"] = true,
                                 ["frequency"] = 254,
                                 ["groupId"] = 683,
@@ -10564,8 +10395,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -356079.42307474,
                                 ["y"] = 639630.09905622,
-                            }, -- end of [8]
-                            [9] = {
+                            }, -- end of [7]
+                            [8] = {
                                 ["communication"] = true,
                                 ["frequency"] = 133.75,
                                 ["groupId"] = 700,
@@ -10738,8 +10569,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -326624.99078218,
                                 ["y"] = 551409.54240095,
-                            }, -- end of [9]
-                            [10] = {
+                            }, -- end of [8]
+                            [9] = {
                                 ["communication"] = true,
                                 ["frequency"] = 130.3,
                                 ["groupId"] = 815,
@@ -10905,8 +10736,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -363538.60598652,
                                 ["y"] = 554315.51014073,
-                            }, -- end of [10]
-                            [11] = {
+                            }, -- end of [9]
+                            [10] = {
                                 ["communication"] = false,
                                 ["frequency"] = 124,
                                 ["groupId"] = 867,
@@ -11167,8 +10998,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -361959.77109164,
                                 ["y"] = 577265.55981563,
-                            }, -- end of [11]
-                            [12] = {
+                            }, -- end of [10]
+                            [11] = {
                                 ["communication"] = false,
                                 ["frequency"] = 124,
                                 ["groupId"] = 876,
@@ -11429,8 +11260,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -365951.30373562,
                                 ["y"] = 541031.52087195,
-                            }, -- end of [12]
-                            [13] = {
+                            }, -- end of [11]
+                            [12] = {
                                 ["communication"] = false,
                                 ["frequency"] = 124,
                                 ["groupId"] = 877,
@@ -11691,270 +11522,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -366637.8503104,
                                 ["y"] = 531847.23687569,
-                            }, -- end of [13]
-                            [14] = {
-                                ["communication"] = false,
-                                ["frequency"] = 124,
-                                ["groupId"] = 880,
-                                ["hidden"] = false,
-                                ["modulation"] = 0,
-                                ["name"] = "DictKey_GroupName_4887",
-                                ["radioSet"] = false,
-                                ["route"] = {
-                                    ["points"] = {
-                                        [1] = {
-                                            ["action"] = "Turning Point",
-                                            ["alt"] = 4572,
-                                            ["alt_type"] = "BARO",
-                                            ["ETA"] = 0,
-                                            ["ETA_locked"] = true,
-                                            ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_4890",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
-                                            ["speed"] = 133.61111111111,
-                                            ["speed_locked"] = true,
-                                            ["task"] = {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = {
-                                                    ["tasks"] = {
-                                                        [1] = {
-                                                            ["auto"] = true,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "WrappedAction",
-                                                            ["number"] = 1,
-                                                            ["params"] = {
-                                                                ["action"] = {
-                                                                    ["id"] = "EPLRS",
-                                                                    ["params"] = {
-                                                                        ["groupId"] = 33,
-                                                                        ["value"] = true,
-                                                                    }, -- end of ["params"]
-                                                                }, -- end of ["action"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = -363809.42904826,
-                                            ["y"] = 567605.11199612,
-                                        }, -- end of [1]
-                                        [2] = {
-                                            ["action"] = "Turning Point",
-                                            ["alt"] = 4572.3048,
-                                            ["alt_type"] = "BARO",
-                                            ["ETA"] = 186.34835004034,
-                                            ["ETA_locked"] = false,
-                                            ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_4891",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
-                                            ["speed"] = 133.61111111111,
-                                            ["speed_locked"] = true,
-                                            ["task"] = {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = {
-                                                    ["tasks"] = {
-                                                        [1] = {
-                                                            ["auto"] = false,
-                                                            ["enabled"] = true,
-                                                            ["id"] = "Escort",
-                                                            ["number"] = 1,
-                                                            ["params"] = {
-                                                                ["engagementDistMax"] = 37000,
-                                                                ["groupId"] = 377,
-                                                                ["lastWptIndex"] = 3,
-                                                                ["lastWptIndexFlag"] = false,
-                                                                ["lastWptIndexFlagChangedManually"] = false,
-                                                                ["noTargetTypes"] = {
-                                                                    [1] = "Helicopters",
-                                                                }, -- end of ["noTargetTypes"]
-                                                                ["pos"] = {
-                                                                    ["x"] = -500,
-                                                                    ["y"] = 0,
-                                                                    ["z"] = 200,
-                                                                }, -- end of ["pos"]
-                                                                ["targetTypes"] = {
-                                                                    [1] = "Planes",
-                                                                }, -- end of ["targetTypes"]
-                                                            }, -- end of ["params"]
-                                                        }, -- end of [1]
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = -342358.11066311,
-                                            ["y"] = 562723.08781191,
-                                        }, -- end of [2]
-                                        [3] = {
-                                            ["action"] = "Turning Point",
-                                            ["alt"] = 4572.3048,
-                                            ["alt_type"] = "BARO",
-                                            ["ETA"] = 534.07635692065,
-                                            ["ETA_locked"] = false,
-                                            ["formation_template"] = "",
-                                            ["name"] = "DictKey_WptName_4892",
-                                            ["properties"] = {
-                                                ["addopt"] = {
-                                                }, -- end of ["addopt"]
-                                            }, -- end of ["properties"]
-                                            ["speed"] = 133.61111111111,
-                                            ["speed_locked"] = true,
-                                            ["task"] = {
-                                                ["id"] = "ComboTask",
-                                                ["params"] = {
-                                                    ["tasks"] = {
-                                                    }, -- end of ["tasks"]
-                                                }, -- end of ["params"]
-                                            }, -- end of ["task"]
-                                            ["type"] = "Turning Point",
-                                            ["x"] = -315137.12733298,
-                                            ["y"] = 525072.3255428,
-                                        }, -- end of [3]
-                                    }, -- end of ["points"]
-                                }, -- end of ["route"]
-                                ["start_time"] = 0,
-                                ["task"] = "Escort",
-                                ["tasks"] = {
-                                }, -- end of ["tasks"]
-                                ["taskSelected"] = true,
-                                ["uncontrolled"] = false,
-                                ["units"] = {
-                                    [1] = {
-                                        ["alt"] = 4572,
-                                        ["alt_type"] = "BARO",
-                                        ["callsign"] = {
-                                            [1] = 1,
-                                            [2] = 5,
-                                            [3] = 1,
-                                            ["name"] = "Enfield51",
-                                        }, -- end of ["callsign"]
-                                        ["hardpoint_racks"] = true,
-                                        ["heading"] = -0.2237746637251,
-                                        ["livery_id"] = "106th SQN (8th Airbase)",
-                                        ["name"] = "DictKey_UnitName_4888",
-                                        ["onboard_num"] = "1039",
-                                        ["payload"] = {
-                                            ["chaff"] = 120,
-                                            ["flare"] = 60,
-                                            ["fuel"] = "6103",
-                                            ["gun"] = 100,
-                                            ["pylons"] = {
-                                                [1] = {
-                                                    ["CLSID"] = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}",
-                                                }, -- end of [1]
-                                                [2] = {
-                                                    ["CLSID"] = "{E1F29B21-F291-4589-9FD8-3272EEC69506}",
-                                                }, -- end of [2]
-                                                [3] = {
-                                                    ["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
-                                                }, -- end of [3]
-                                                [4] = {
-                                                    ["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
-                                                }, -- end of [4]
-                                                [5] = {
-                                                    ["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
-                                                }, -- end of [5]
-                                                [6] = {
-                                                    ["CLSID"] = "{E1F29B21-F291-4589-9FD8-3272EEC69506}",
-                                                }, -- end of [6]
-                                                [7] = {
-                                                    ["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
-                                                }, -- end of [7]
-                                                [8] = {
-                                                    ["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
-                                                }, -- end of [8]
-                                                [9] = {
-                                                    ["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
-                                                }, -- end of [9]
-                                                [10] = {
-                                                    ["CLSID"] = "{E1F29B21-F291-4589-9FD8-3272EEC69506}",
-                                                }, -- end of [10]
-                                                [11] = {
-                                                    ["CLSID"] = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}",
-                                                }, -- end of [11]
-                                            }, -- end of ["pylons"]
-                                        }, -- end of ["payload"]
-                                        ["psi"] = 0.2237746637251,
-                                        ["skill"] = "Excellent",
-                                        ["speed"] = 133.61111111111,
-                                        ["type"] = "F-15C",
-                                        ["unitId"] = 2099,
-                                        ["x"] = -363809.42904826,
-                                        ["y"] = 567605.11199612,
-                                    }, -- end of [1]
-                                    [2] = {
-                                        ["alt"] = 4572,
-                                        ["alt_type"] = "BARO",
-                                        ["callsign"] = {
-                                            [1] = 1,
-                                            [2] = 5,
-                                            [3] = 2,
-                                            ["name"] = "Enfield52",
-                                        }, -- end of ["callsign"]
-                                        ["heading"] = -0.2237746637251,
-                                        ["livery_id"] = "106th SQN (8th Airbase)",
-                                        ["name"] = "DictKey_UnitName_4889",
-                                        ["onboard_num"] = "1041",
-                                        ["payload"] = {
-                                            ["chaff"] = 120,
-                                            ["flare"] = 60,
-                                            ["fuel"] = "6103",
-                                            ["gun"] = 100,
-                                            ["pylons"] = {
-                                                [1] = {
-                                                    ["CLSID"] = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}",
-                                                }, -- end of [1]
-                                                [2] = {
-                                                    ["CLSID"] = "{E1F29B21-F291-4589-9FD8-3272EEC69506}",
-                                                }, -- end of [2]
-                                                [3] = {
-                                                    ["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
-                                                }, -- end of [3]
-                                                [4] = {
-                                                    ["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
-                                                }, -- end of [4]
-                                                [5] = {
-                                                    ["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
-                                                }, -- end of [5]
-                                                [6] = {
-                                                    ["CLSID"] = "{E1F29B21-F291-4589-9FD8-3272EEC69506}",
-                                                }, -- end of [6]
-                                                [7] = {
-                                                    ["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
-                                                }, -- end of [7]
-                                                [8] = {
-                                                    ["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
-                                                }, -- end of [8]
-                                                [9] = {
-                                                    ["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
-                                                }, -- end of [9]
-                                                [10] = {
-                                                    ["CLSID"] = "{E1F29B21-F291-4589-9FD8-3272EEC69506}",
-                                                }, -- end of [10]
-                                                [11] = {
-                                                    ["CLSID"] = "{40EF17B7-F508-45de-8566-6FFECC0C1AB8}",
-                                                }, -- end of [11]
-                                            }, -- end of ["pylons"]
-                                        }, -- end of ["payload"]
-                                        ["psi"] = 0.2237746637251,
-                                        ["skill"] = "Excellent",
-                                        ["speed"] = 133.61111111111,
-                                        ["type"] = "F-15C",
-                                        ["unitId"] = 2100,
-                                        ["x"] = -363849.42904826,
-                                        ["y"] = 567645.11199612,
-                                    }, -- end of [2]
-                                }, -- end of ["units"]
-                                ["x"] = -363809.42904826,
-                                ["y"] = 567605.11199612,
-                            }, -- end of [14]
-                            [15] = {
+                            }, -- end of [12]
+                            [13] = {
                                 ["communication"] = false,
                                 ["frequency"] = 124,
                                 ["groupId"] = 881,
@@ -12215,8 +11784,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -363894.16165891,
                                 ["y"] = 559293.2895543,
-                            }, -- end of [15]
-                            [16] = {
+                            }, -- end of [13]
+                            [14] = {
                                 ["communication"] = true,
                                 ["frequency"] = 251,
                                 ["groupId"] = 906,
@@ -12636,8 +12205,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -355962.5625,
                                 ["y"] = 618097.125,
-                            }, -- end of [16]
-                            [17] = {
+                            }, -- end of [14]
+                            [15] = {
                                 ["communication"] = true,
                                 ["frequency"] = 305,
                                 ["groupId"] = 907,
@@ -13151,8 +12720,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -356017.875,
                                 ["y"] = 618172.25,
-                            }, -- end of [17]
-                            [18] = {
+                            }, -- end of [15]
+                            [16] = {
                                 ["communication"] = true,
                                 ["frequency"] = 251,
                                 ["groupId"] = 908,
@@ -13657,8 +13226,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -356108.25,
                                 ["y"] = 618207.8125,
-                            }, -- end of [18]
-                            [19] = {
+                            }, -- end of [16]
+                            [17] = {
                                 ["communication"] = true,
                                 ["frequency"] = 243,
                                 ["groupId"] = 909,
@@ -14066,8 +13635,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -356101.71875,
                                 ["y"] = 618304.8125,
-                            }, -- end of [19]
-                            [20] = {
+                            }, -- end of [17]
+                            [18] = {
                                 ["communication"] = true,
                                 ["frequency"] = 251,
                                 ["groupId"] = 910,
@@ -14489,8 +14058,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -281562.28044481,
                                 ["y"] = 646425.05699916,
-                            }, -- end of [20]
-                            [21] = {
+                            }, -- end of [18]
+                            [19] = {
                                 ["communication"] = true,
                                 ["frequency"] = 305,
                                 ["groupId"] = 911,
@@ -15270,8 +14839,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -318328.25,
                                 ["y"] = 635190.875,
-                            }, -- end of [21]
-                            [22] = {
+                            }, -- end of [19]
+                            [20] = {
                                 ["communication"] = true,
                                 ["frequency"] = 251,
                                 ["groupId"] = 912,
@@ -16048,8 +15617,8 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -318301.125,
                                 ["y"] = 635307.875,
-                            }, -- end of [22]
-                            [23] = {
+                            }, -- end of [20]
+                            [21] = {
                                 ["communication"] = true,
                                 ["frequency"] = 243,
                                 ["groupId"] = 913,
@@ -16617,7 +16186,244 @@ mission = {
                                 }, -- end of ["units"]
                                 ["x"] = -318274.21875,
                                 ["y"] = 635424.6875,
-                            }, -- end of [23]
+                            }, -- end of [21]
+                            [22] = {
+                                ["communication"] = true,
+                                ["frequency"] = 305,
+                                ["groupId"] = 930,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_5327",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5329",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 179.86111111111,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAP",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] = {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                        [2] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 2,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "EPLRS",
+                                                                    ["params"] = {
+                                                                        ["groupId"] = 8,
+                                                                        ["value"] = true,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [2]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -309347.54984111,
+                                            ["y"] = 659031.26501326,
+                                        }, -- end of [1]
+                                        [2] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 78.104539611192,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5330",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 179.86111111111,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -305181.69088972,
+                                            ["y"] = 666685.97655065,
+                                        }, -- end of [2]
+                                        [3] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 107.27744697475,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5331",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 179.86111111111,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -307560.80136366,
+                                            ["y"] = 662009.26905257,
+                                        }, -- end of [3]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAP",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                            ["InnerBoard"] = 0,
+                                            ["OuterBoard"] = 0,
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 3048,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 3,
+                                            [2] = 2,
+                                            [3] = 1,
+                                            ["name"] = "Uzi21",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 1.0724003706687,
+                                        ["livery_id"] = "VFA-37",
+                                        ["name"] = "DictKey_UnitName_5328",
+                                        ["onboard_num"] = "1050",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 60,
+                                            ["flare"] = 30,
+                                            ["fuel"] = 4900,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{5CE2FF2A-645A-4197-B48D-8720AC69394F}",
+                                                }, -- end of [1]
+                                                [2] = {
+                                                    ["CLSID"] = "LAU-115_2*LAU-127_AIM-9X",
+                                                }, -- end of [2]
+                                                [3] = {
+                                                    ["CLSID"] = "LAU-115_2*LAU-127_AIM-120C",
+                                                }, -- end of [3]
+                                                [4] = {
+                                                    ["CLSID"] = "{AIM-7H}",
+                                                }, -- end of [4]
+                                                [5] = {
+                                                    ["CLSID"] = "{FPU_8A_FUEL_TANK}",
+                                                }, -- end of [5]
+                                                [6] = {
+                                                    ["CLSID"] = "{AIM-7H}",
+                                                }, -- end of [6]
+                                                [7] = {
+                                                    ["CLSID"] = "LAU-115_2*LAU-127_AIM-120C",
+                                                }, -- end of [7]
+                                                [8] = {
+                                                    ["CLSID"] = "LAU-115_2*LAU-127_AIM-9X",
+                                                }, -- end of [8]
+                                                [9] = {
+                                                    ["CLSID"] = "{5CE2FF2A-645A-4197-B48D-8720AC69394F}",
+                                                }, -- end of [9]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -1.0724003706687,
+                                        ["Radio"] = {
+                                            [1] = {
+                                                ["channels"] = {
+                                                    [1] = 251,
+                                                    [2] = 291,
+                                                    [3] = 292,
+                                                    [4] = 293,
+                                                    [5] = 294,
+                                                    [6] = 271,
+                                                    [7] = 271.05,
+                                                    [8] = 271.1,
+                                                    [9] = 271.15,
+                                                    [10] = 271.2,
+                                                    [11] = 271.25,
+                                                    [12] = 271.3,
+                                                    [13] = 271.35,
+                                                    [14] = 271.4,
+                                                    [15] = 271.45,
+                                                    [16] = 271.5,
+                                                    [17] = 271.55,
+                                                    [18] = 271.6,
+                                                    [19] = 271.65,
+                                                    [20] = 271.7,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [1]
+                                            [2] = {
+                                                ["channels"] = {
+                                                    [1] = 251,
+                                                    [2] = 133,
+                                                    [3] = 132,
+                                                    [4] = 138,
+                                                    [5] = 129,
+                                                    [6] = 140,
+                                                    [7] = 134.1,
+                                                    [8] = 310.1,
+                                                    [9] = 310.2,
+                                                    [10] = 305.1,
+                                                    [11] = 305.2,
+                                                    [12] = 305.3,
+                                                    [13] = 305.4,
+                                                    [14] = 305.5,
+                                                    [15] = 282,
+                                                    [16] = 306.1,
+                                                    [17] = 306.2,
+                                                    [18] = 130.2,
+                                                    [19] = 130.3,
+                                                    [20] = 130.4,
+                                                }, -- end of ["channels"]
+                                            }, -- end of [2]
+                                        }, -- end of ["Radio"]
+                                        ["skill"] = "Client",
+                                        ["speed"] = 179.86111111111,
+                                        ["type"] = "FA-18C_hornet",
+                                        ["unitId"] = 2217,
+                                        ["x"] = -309347.54984111,
+                                        ["y"] = 659031.26501326,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["x"] = -309347.54984111,
+                                ["y"] = 659031.26501326,
+                            }, -- end of [22]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] = {
@@ -22889,6 +22695,222 @@ mission = {
                                 ["x"] = 28863.080726331,
                                 ["y"] = 639848.8748928,
                             }, -- end of [25]
+                            [26] = {
+                                ["communication"] = true,
+                                ["frequency"] = 124,
+                                ["groupId"] = 929,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_5304",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5307",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 220.97222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAP",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] = {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -52723.388075228,
+                                            ["y"] = 466724.5799436,
+                                        }, -- end of [1]
+                                        [2] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 537.88184151235,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5308",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 220.97222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -137258.60412116,
+                                            ["y"] = 487027.87297936,
+                                        }, -- end of [2]
+                                        [3] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 741.35497779547,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5309",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 220.97222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "SwitchWaypoint",
+                                                                    ["params"] = {
+                                                                        ["fromWaypointIndex"] = 3,
+                                                                        ["goToWaypointIndex"] = 2,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -164570.72184755,
+                                            ["y"] = 451312.02672177,
+                                        }, -- end of [3]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAP",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["alt"] = 3048,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 108,
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 2.9058816789585,
+                                        ["livery_id"] = "Domna 120th AR",
+                                        ["name"] = "DictKey_UnitName_5305",
+                                        ["onboard_num"] = "1050",
+                                        ["payload"] = {
+                                            ["chaff"] = 30,
+                                            ["flare"] = 30,
+                                            ["fuel"] = "3376",
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
+                                                }, -- end of [1]
+                                                [2] = {
+                                                    ["CLSID"] = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
+                                                }, -- end of [2]
+                                                [3] = {
+                                                    ["CLSID"] = "{9B25D316-0434-4954-868F-D51DB1A38DF0}",
+                                                }, -- end of [3]
+                                                [4] = {
+                                                    ["CLSID"] = "{2BEC576B-CDF5-4B7F-961F-B0FA4312B841}",
+                                                }, -- end of [4]
+                                                [5] = {
+                                                    ["CLSID"] = "{9B25D316-0434-4954-868F-D51DB1A38DF0}",
+                                                }, -- end of [5]
+                                                [6] = {
+                                                    ["CLSID"] = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
+                                                }, -- end of [6]
+                                                [7] = {
+                                                    ["CLSID"] = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
+                                                }, -- end of [7]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -2.9058816789585,
+                                        ["skill"] = "Random",
+                                        ["speed"] = 220.97222222222,
+                                        ["type"] = "MiG-29A",
+                                        ["unitId"] = 2214,
+                                        ["x"] = -52723.388075228,
+                                        ["y"] = 466724.5799436,
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["alt"] = 3048,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = 112,
+                                        ["heading"] = 2.9058816789585,
+                                        ["livery_id"] = "Domna 120th AR",
+                                        ["name"] = "DictKey_UnitName_5310",
+                                        ["onboard_num"] = "1051",
+                                        ["payload"] = {
+                                            ["chaff"] = 30,
+                                            ["flare"] = 30,
+                                            ["fuel"] = "3376",
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
+                                                }, -- end of [1]
+                                                [2] = {
+                                                    ["CLSID"] = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
+                                                }, -- end of [2]
+                                                [3] = {
+                                                    ["CLSID"] = "{9B25D316-0434-4954-868F-D51DB1A38DF0}",
+                                                }, -- end of [3]
+                                                [4] = {
+                                                    ["CLSID"] = "{2BEC576B-CDF5-4B7F-961F-B0FA4312B841}",
+                                                }, -- end of [4]
+                                                [5] = {
+                                                    ["CLSID"] = "{9B25D316-0434-4954-868F-D51DB1A38DF0}",
+                                                }, -- end of [5]
+                                                [6] = {
+                                                    ["CLSID"] = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
+                                                }, -- end of [6]
+                                                [7] = {
+                                                    ["CLSID"] = "{682A481F-0CB5-4693-A382-D00DD4A156D7}",
+                                                }, -- end of [7]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -2.9058816789585,
+                                        ["skill"] = "Random",
+                                        ["speed"] = 220.97222222222,
+                                        ["type"] = "MiG-29A",
+                                        ["unitId"] = 2216,
+                                        ["x"] = -52763.388075228,
+                                        ["y"] = 466764.5799436,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["x"] = -52723.388075228,
+                                ["y"] = 466724.5799436,
+                            }, -- end of [26]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                     ["ship"] = {
@@ -27263,6 +27285,715 @@ mission = {
                                 ["x"] = -27499.430440054,
                                 ["y"] = 457802.79212749,
                             }, -- end of [3]
+                            [4] = {
+                                ["communication"] = true,
+                                ["frequency"] = 305,
+                                ["groupId"] = 926,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_5284",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5286",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 174.72222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAP",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] = {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -285338.67938727,
+                                            ["y"] = 738837.88415713,
+                                        }, -- end of [1]
+                                        [2] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 294.25940233299,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5287",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 174.72222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -292350.39931439,
+                                            ["y"] = 687904.59565709,
+                                        }, -- end of [2]
+                                        [3] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 405.51968480321,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5288",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 174.72222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "SwitchWaypoint",
+                                                                    ["params"] = {
+                                                                        ["fromWaypointIndex"] = 3,
+                                                                        ["goToWaypointIndex"] = 2,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -273652.04279041,
+                                            ["y"] = 682587.52745122,
+                                        }, -- end of [3]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAP",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 3048,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 2,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Springfield11",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = -1.7076012075665,
+                                        ["livery_id"] = "IR IRIAF Azarakhsh",
+                                        ["name"] = "DictKey_UnitName_5285",
+                                        ["onboard_num"] = "1050",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 2,
+                                            ["chaff"] = 30,
+                                            ["flare"] = 15,
+                                            ["fuel"] = 2046,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{AIM-9B}",
+                                                }, -- end of [1]
+                                                [3] = {
+                                                    ["CLSID"] = "{PTB-150GAL}",
+                                                }, -- end of [3]
+                                                [4] = {
+                                                    ["CLSID"] = "{PTB-150GAL}",
+                                                }, -- end of [4]
+                                                [5] = {
+                                                    ["CLSID"] = "{PTB-150GAL}",
+                                                }, -- end of [5]
+                                                [7] = {
+                                                    ["CLSID"] = "{AIM-9B}",
+                                                }, -- end of [7]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 1.7076012075665,
+                                        ["skill"] = "Random",
+                                        ["speed"] = 174.72222222222,
+                                        ["type"] = "F-5E-3",
+                                        ["unitId"] = 2206,
+                                        ["x"] = -285338.67938727,
+                                        ["y"] = 738837.88415713,
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 3048,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 2,
+                                            [2] = 1,
+                                            [3] = 2,
+                                            ["name"] = "Springfield12",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = -1.7076012075665,
+                                        ["livery_id"] = "IR IRIAF Azarakhsh",
+                                        ["name"] = "DictKey_UnitName_5289",
+                                        ["onboard_num"] = "1051",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 2,
+                                            ["chaff"] = 30,
+                                            ["flare"] = 15,
+                                            ["fuel"] = 2046,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{AIM-9B}",
+                                                }, -- end of [1]
+                                                [3] = {
+                                                    ["CLSID"] = "{PTB-150GAL}",
+                                                }, -- end of [3]
+                                                [4] = {
+                                                    ["CLSID"] = "{PTB-150GAL}",
+                                                }, -- end of [4]
+                                                [5] = {
+                                                    ["CLSID"] = "{PTB-150GAL}",
+                                                }, -- end of [5]
+                                                [7] = {
+                                                    ["CLSID"] = "{AIM-9B}",
+                                                }, -- end of [7]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = 1.7076012075665,
+                                        ["skill"] = "Random",
+                                        ["speed"] = 174.72222222222,
+                                        ["type"] = "F-5E-3",
+                                        ["unitId"] = 2207,
+                                        ["x"] = -285378.67938727,
+                                        ["y"] = 738877.88415713,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["x"] = -285338.67938727,
+                                ["y"] = 738837.88415713,
+                            }, -- end of [4]
+                            [5] = {
+                                ["communication"] = true,
+                                ["frequency"] = 305,
+                                ["groupId"] = 927,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_5290",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5293",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 174.72222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAP",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] = {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -158685.90568704,
+                                            ["y"] = 547352.77629156,
+                                        }, -- end of [1]
+                                        [2] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 584.29225969921,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5294",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 174.72222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -201231.82804618,
+                                            ["y"] = 575329.8453963,
+                                        }, -- end of [2]
+                                        [3] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 825.20382497103,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5295",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 174.72222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "SwitchWaypoint",
+                                                                    ["params"] = {
+                                                                        ["fromWaypointIndex"] = 3,
+                                                                        ["goToWaypointIndex"] = 2,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -227526.86933071,
+                                            ["y"] = 542461.04379063,
+                                        }, -- end of [3]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAP",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 3048,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 2,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Springfield11",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 2.5599117990364,
+                                        ["livery_id"] = "IR IRIAF Azarakhsh",
+                                        ["name"] = "DictKey_UnitName_5291",
+                                        ["onboard_num"] = "1050",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 2,
+                                            ["chaff"] = 30,
+                                            ["flare"] = 15,
+                                            ["fuel"] = 2046,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{AIM-9B}",
+                                                }, -- end of [1]
+                                                [3] = {
+                                                    ["CLSID"] = "{PTB-150GAL}",
+                                                }, -- end of [3]
+                                                [4] = {
+                                                    ["CLSID"] = "{PTB-150GAL}",
+                                                }, -- end of [4]
+                                                [5] = {
+                                                    ["CLSID"] = "{PTB-150GAL}",
+                                                }, -- end of [5]
+                                                [7] = {
+                                                    ["CLSID"] = "{AIM-9B}",
+                                                }, -- end of [7]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -2.5599117990364,
+                                        ["skill"] = "Random",
+                                        ["speed"] = 174.72222222222,
+                                        ["type"] = "F-5E-3",
+                                        ["unitId"] = 2208,
+                                        ["x"] = -158685.90568704,
+                                        ["y"] = 547352.77629156,
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 3048,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 2,
+                                            [2] = 1,
+                                            [3] = 2,
+                                            ["name"] = "Springfield12",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 2.5599117990364,
+                                        ["livery_id"] = "IR IRIAF Azarakhsh",
+                                        ["name"] = "DictKey_UnitName_5292",
+                                        ["onboard_num"] = "1051",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 2,
+                                            ["chaff"] = 30,
+                                            ["flare"] = 15,
+                                            ["fuel"] = 2046,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{AIM-9B}",
+                                                }, -- end of [1]
+                                                [3] = {
+                                                    ["CLSID"] = "{PTB-150GAL}",
+                                                }, -- end of [3]
+                                                [4] = {
+                                                    ["CLSID"] = "{PTB-150GAL}",
+                                                }, -- end of [4]
+                                                [5] = {
+                                                    ["CLSID"] = "{PTB-150GAL}",
+                                                }, -- end of [5]
+                                                [7] = {
+                                                    ["CLSID"] = "{AIM-9B}",
+                                                }, -- end of [7]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -2.5599117990364,
+                                        ["skill"] = "Random",
+                                        ["speed"] = 174.72222222222,
+                                        ["type"] = "F-5E-3",
+                                        ["unitId"] = 2209,
+                                        ["x"] = -158725.90568704,
+                                        ["y"] = 547392.77629156,
+                                    }, -- end of [2]
+                                    [3] = {
+                                        ["AddPropAircraft"] = {
+                                        }, -- end of ["AddPropAircraft"]
+                                        ["alt"] = 3048,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 2,
+                                            [2] = 1,
+                                            [3] = 3,
+                                            ["name"] = "Springfield13",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 2.5599117990364,
+                                        ["livery_id"] = "IR IRIAF Azarakhsh",
+                                        ["name"] = "DictKey_UnitName_5302",
+                                        ["onboard_num"] = "1052",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 2,
+                                            ["chaff"] = 30,
+                                            ["flare"] = 15,
+                                            ["fuel"] = 2046,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{AIM-9B}",
+                                                }, -- end of [1]
+                                                [3] = {
+                                                    ["CLSID"] = "{PTB-150GAL}",
+                                                }, -- end of [3]
+                                                [4] = {
+                                                    ["CLSID"] = "{PTB-150GAL}",
+                                                }, -- end of [4]
+                                                [5] = {
+                                                    ["CLSID"] = "{PTB-150GAL}",
+                                                }, -- end of [5]
+                                                [7] = {
+                                                    ["CLSID"] = "{AIM-9B}",
+                                                }, -- end of [7]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -2.5599117990364,
+                                        ["skill"] = "Random",
+                                        ["speed"] = 174.72222222222,
+                                        ["type"] = "F-5E-3",
+                                        ["unitId"] = 2212,
+                                        ["x"] = -158765.90568704,
+                                        ["y"] = 547432.77629156,
+                                    }, -- end of [3]
+                                }, -- end of ["units"]
+                                ["x"] = -158685.90568704,
+                                ["y"] = 547352.77629156,
+                            }, -- end of [5]
+                            [6] = {
+                                ["communication"] = true,
+                                ["frequency"] = 124,
+                                ["groupId"] = 928,
+                                ["hidden"] = false,
+                                ["modulation"] = 0,
+                                ["name"] = "DictKey_GroupName_5296",
+                                ["radioSet"] = false,
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5299",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 220.97222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = true,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "EngageTargets",
+                                                            ["key"] = "CAP",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["priority"] = 0,
+                                                                ["targetTypes"] = {
+                                                                    [1] = "Air",
+                                                                }, -- end of ["targetTypes"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -122056.91990149,
+                                            ["y"] = 492087.99072038,
+                                        }, -- end of [1]
+                                        [2] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 267.50842225707,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5300",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 220.97222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -174537.04573459,
+                                            ["y"] = 519291.9743155,
+                                        }, -- end of [2]
+                                        [3] = {
+                                            ["action"] = "Turning Point",
+                                            ["alt"] = 3048,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 402.93304398316,
+                                            ["ETA_locked"] = false,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5301",
+                                            ["properties"] = {
+                                                ["addopt"] = {
+                                                }, -- end of ["addopt"]
+                                            }, -- end of ["properties"]
+                                            ["speed"] = 220.97222222222,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                        [1] = {
+                                                            ["auto"] = false,
+                                                            ["enabled"] = true,
+                                                            ["id"] = "WrappedAction",
+                                                            ["number"] = 1,
+                                                            ["params"] = {
+                                                                ["action"] = {
+                                                                    ["id"] = "SwitchWaypoint",
+                                                                    ["params"] = {
+                                                                        ["fromWaypointIndex"] = 3,
+                                                                        ["goToWaypointIndex"] = 2,
+                                                                    }, -- end of ["params"]
+                                                                }, -- end of ["action"]
+                                                            }, -- end of ["params"]
+                                                        }, -- end of [1]
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -194029.66390117,
+                                            ["y"] = 496586.28722036,
+                                        }, -- end of [3]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "CAP",
+                                ["tasks"] = {
+                                }, -- end of ["tasks"]
+                                ["uncontrolled"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["alt"] = 3048,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 2,
+                                            [2] = 1,
+                                            [3] = 1,
+                                            ["name"] = "Springfield11",
+                                        }, -- end of ["callsign"]
+                                        ["hardpoint_racks"] = true,
+                                        ["heading"] = 2.6633593691187,
+                                        ["livery_id"] = "Draken International",
+                                        ["name"] = "DictKey_UnitName_5297",
+                                        ["onboard_num"] = "1050",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 18,
+                                            ["flare"] = 40,
+                                            ["fuel"] = 2280,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{R-60 2L}",
+                                                }, -- end of [1]
+                                                [2] = {
+                                                    ["CLSID"] = "{R-3R}",
+                                                }, -- end of [2]
+                                                [3] = {
+                                                    ["CLSID"] = "{PTB_800_MIG21}",
+                                                }, -- end of [3]
+                                                [4] = {
+                                                    ["CLSID"] = "{R-3R}",
+                                                }, -- end of [4]
+                                                [5] = {
+                                                    ["CLSID"] = "{R-60 2R}",
+                                                }, -- end of [5]
+                                                [6] = {
+                                                    ["CLSID"] = "{ASO-2}",
+                                                }, -- end of [6]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -2.6633593691187,
+                                        ["skill"] = "Random",
+                                        ["speed"] = 220.97222222222,
+                                        ["type"] = "MiG-21Bis",
+                                        ["unitId"] = 2210,
+                                        ["x"] = -122056.91990149,
+                                        ["y"] = 492087.99072038,
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["alt"] = 3048,
+                                        ["alt_type"] = "BARO",
+                                        ["callsign"] = {
+                                            [1] = 2,
+                                            [2] = 1,
+                                            [3] = 2,
+                                            ["name"] = "Springfield12",
+                                        }, -- end of ["callsign"]
+                                        ["heading"] = 2.6633593691187,
+                                        ["livery_id"] = "Draken International",
+                                        ["name"] = "DictKey_UnitName_5303",
+                                        ["onboard_num"] = "1053",
+                                        ["payload"] = {
+                                            ["ammo_type"] = 1,
+                                            ["chaff"] = 18,
+                                            ["flare"] = 40,
+                                            ["fuel"] = 2280,
+                                            ["gun"] = 100,
+                                            ["pylons"] = {
+                                                [1] = {
+                                                    ["CLSID"] = "{R-60 2L}",
+                                                }, -- end of [1]
+                                                [2] = {
+                                                    ["CLSID"] = "{R-3R}",
+                                                }, -- end of [2]
+                                                [3] = {
+                                                    ["CLSID"] = "{PTB_800_MIG21}",
+                                                }, -- end of [3]
+                                                [4] = {
+                                                    ["CLSID"] = "{R-3R}",
+                                                }, -- end of [4]
+                                                [5] = {
+                                                    ["CLSID"] = "{R-60 2R}",
+                                                }, -- end of [5]
+                                                [6] = {
+                                                    ["CLSID"] = "{ASO-2}",
+                                                }, -- end of [6]
+                                            }, -- end of ["pylons"]
+                                        }, -- end of ["payload"]
+                                        ["psi"] = -2.6633593691187,
+                                        ["skill"] = "Random",
+                                        ["speed"] = 220.97222222222,
+                                        ["type"] = "MiG-21Bis",
+                                        ["unitId"] = 2213,
+                                        ["x"] = -122096.91990149,
+                                        ["y"] = 492127.99072038,
+                                    }, -- end of [2]
+                                }, -- end of ["units"]
+                                ["x"] = -122056.91990149,
+                                ["y"] = 492087.99072038,
+                            }, -- end of [6]
                         }, -- end of ["group"]
                     }, -- end of ["plane"]
                 }, -- end of [6]
@@ -27347,7 +28078,7 @@ mission = {
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1731911,
+    ["currentKey"] = 1752693,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -34503,11 +35234,11 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -226187.26386284,
-        ["centerY"] = 589257.67696139,
-        ["zoom"] = 409081.39542791,
+        ["centerX"] = -141014.02657998,
+        ["centerY"] = 569201.64500575,
+        ["zoom"] = 749716.08333,
     }, -- end of ["map"]
-    ["maxDictId"] = 5282,
+    ["maxDictId"] = 5343,
     ["pictureFileNameB"] = {
         [1] = "ResKey_ImageBriefing_2136",
     }, -- end of ["pictureFileNameB"]
@@ -34549,7 +35280,7 @@ mission = {
     ["theatre"] = "Caucasus",
     ["trig"] = {
         ["actions"] = {
-            [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_3480\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3308\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3353\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_3354\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_2612\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2526\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2607\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3265\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2617\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3269\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2608\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2609\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2610\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2546\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2621\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2622\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2623\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2628\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2629\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3623\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3624\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4550\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4552\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4574\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4585\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4576\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_5053\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_3295\"));a_set_ai_task(358, 1);a_set_flag_value(9001, 1);a_set_ai_task(598, 1);a_set_ai_task(598, 2);a_set_flag_value(9074, 1);",
+            [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_3480\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3308\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3353\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_3354\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_2612\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2526\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2607\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3265\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2617\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3269\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2608\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2609\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2610\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2546\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2621\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2622\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2623\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2628\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2629\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3623\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3624\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4550\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4552\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4574\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4585\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4576\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_5053\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_5325\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_3295\"));a_set_ai_task(358, 1);a_set_flag_value(9001, 1);a_set_ai_task(598, 1);a_set_ai_task(598, 2);a_set_flag_value(9074, 1);",
             [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_5110\")); mission.trig.func[2]=nil;",
             [3] = "a_set_ai_task(598, 1);a_set_ai_task(598, 2);a_set_flag_value(9074, 0);a_set_flag_value(9074, 1);",
             [4] = "a_set_ai_task(358, 1);a_set_flag_value(9001, 0);a_set_flag_value(9001, 1);",
@@ -34564,6 +35295,15 @@ mission = {
             [13] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5282\"));",
             [14] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5113\"));",
             [15] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5107\"));",
+            [16] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5311\"));a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_5312\"), 10, false, 10);",
+            [17] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5313\"));a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_5314\"), 10, false, 10);",
+            [18] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5332\"));a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_5333\"), 10, false, 10);",
+            [19] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5334\"));a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_5335\"), 10, false, 10);",
+            [20] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5336\"));a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_5337\"), 10, false, 10);",
+            [21] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5338\"));a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_5339\"), 10, false, 10);",
+            [22] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5340\"));a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_5341\"), 10, false, 10);",
+            [23] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5342\"));a_out_text_delay_s(\"blue\", getValueDictByKey(\"DictKey_ActionText_5343\"), 10, false, 10);",
+            [24] = "a_do_script(getValueDictByKey(\"DictKey_ActionText_5324\"));",
         }, -- end of ["actions"]
         ["conditions"] = {
             [1] = "return(true)",
@@ -34581,6 +35321,15 @@ mission = {
             [13] = "return(c_coalition_has_airdrome(2, 24) )",
             [14] = "return(c_coalition_has_airdrome(2, 25) )",
             [15] = "return(true)",
+            [16] = "return(c_part_of_group_in_zone(906, 1463) or c_part_of_group_in_zone(909, 1463) or c_part_of_group_in_zone(907, 1463) or c_part_of_group_in_zone(908, 1463) or c_part_of_group_in_zone(911, 1463) or c_part_of_group_in_zone(913, 1463) or c_part_of_group_in_zone(912, 1463) or c_part_of_group_in_zone(910, 1463) or c_part_of_group_in_zone(602, 1463) or c_part_of_group_in_zone(428, 1463) or c_part_of_group_in_zone(930, 1463) )",
+            [17] = "return(c_all_of_group_out_zone(906, 1631) and c_all_of_group_out_zone(909, 1631) and c_all_of_group_out_zone(907, 1631) and c_all_of_group_out_zone(908, 1631) and c_all_of_group_out_zone(911, 1631) and c_all_of_group_out_zone(913, 1631) and c_all_of_group_out_zone(912, 1631) and c_all_of_group_out_zone(910, 1631) and c_all_of_group_out_zone(602, 1631) and c_all_of_group_out_zone(428, 1631) and c_all_of_group_out_zone(930, 1631) )",
+            [18] = "return(c_part_of_group_in_zone(906, 1462) or c_part_of_group_in_zone(909, 1462) or c_part_of_group_in_zone(907, 1462) or c_part_of_group_in_zone(908, 1462) or c_part_of_group_in_zone(911, 1462) or c_part_of_group_in_zone(913, 1462) or c_part_of_group_in_zone(912, 1462) or c_part_of_group_in_zone(910, 1462) or c_part_of_group_in_zone(602, 1462) or c_part_of_group_in_zone(428, 1462) or c_part_of_group_in_zone(930, 1462) )",
+            [19] = "return(c_all_of_group_out_zone(906, 1630) and c_all_of_group_out_zone(909, 1630) and c_all_of_group_out_zone(907, 1630) and c_all_of_group_out_zone(908, 1630) and c_all_of_group_out_zone(911, 1630) and c_all_of_group_out_zone(913, 1630) and c_all_of_group_out_zone(912, 1630) and c_all_of_group_out_zone(910, 1630) and c_all_of_group_out_zone(602, 1630) and c_all_of_group_out_zone(428, 1630) and c_all_of_group_out_zone(930, 1630) )",
+            [20] = "return(c_part_of_group_in_zone(906, 1461) or c_part_of_group_in_zone(909, 1461) or c_part_of_group_in_zone(907, 1461) or c_part_of_group_in_zone(908, 1461) or c_part_of_group_in_zone(911, 1461) or c_part_of_group_in_zone(913, 1461) or c_part_of_group_in_zone(912, 1461) or c_part_of_group_in_zone(910, 1461) or c_part_of_group_in_zone(602, 1461) or c_part_of_group_in_zone(428, 1461) or c_part_of_group_in_zone(930, 1461) )",
+            [21] = "return(c_all_of_group_out_zone(906, 1629) and c_all_of_group_out_zone(909, 1629) and c_all_of_group_out_zone(907, 1629) and c_all_of_group_out_zone(908, 1629) and c_all_of_group_out_zone(911, 1629) and c_all_of_group_out_zone(913, 1629) and c_all_of_group_out_zone(912, 1629) and c_all_of_group_out_zone(910, 1629) and c_all_of_group_out_zone(602, 1629) and c_all_of_group_out_zone(428, 1629) and c_all_of_group_out_zone(930, 1629) )",
+            [22] = "return(c_part_of_group_in_zone(906, 1797) or c_part_of_group_in_zone(909, 1797) or c_part_of_group_in_zone(907, 1797) or c_part_of_group_in_zone(908, 1797) or c_part_of_group_in_zone(911, 1797) or c_part_of_group_in_zone(913, 1797) or c_part_of_group_in_zone(912, 1797) or c_part_of_group_in_zone(910, 1797) or c_part_of_group_in_zone(602, 1797) or c_part_of_group_in_zone(428, 1797) or c_part_of_group_in_zone(930, 1797) )",
+            [23] = "return(c_all_of_group_out_zone(906, 1798) and c_all_of_group_out_zone(909, 1798) and c_all_of_group_out_zone(907, 1798) and c_all_of_group_out_zone(908, 1798) and c_all_of_group_out_zone(911, 1798) and c_all_of_group_out_zone(913, 1798) and c_all_of_group_out_zone(912, 1798) and c_all_of_group_out_zone(910, 1798) and c_all_of_group_out_zone(602, 1798) and c_all_of_group_out_zone(428, 1798) and c_all_of_group_out_zone(930, 1798) )",
+            [24] = "return(true)",
         }, -- end of ["conditions"]
         ["custom"] = {
         }, -- end of ["custom"]
@@ -34610,6 +35359,15 @@ mission = {
             [13] = true,
             [14] = true,
             [15] = true,
+            [16] = true,
+            [17] = true,
+            [18] = true,
+            [19] = true,
+            [20] = true,
+            [21] = true,
+            [22] = true,
+            [23] = true,
+            [24] = true,
         }, -- end of ["flag"]
         ["func"] = {
             [2] = "if mission.trig.conditions[2]() then mission.trig.actions[2]() end",
@@ -34622,6 +35380,15 @@ mission = {
             [9] = "if mission.trig.conditions[9]() then mission.trig.actions[9]() end",
             [10] = "if mission.trig.conditions[10]() then mission.trig.actions[10]() end",
             [11] = "if mission.trig.conditions[11]() then mission.trig.actions[11]() end",
+            [16] = "if mission.trig.conditions[16]() then if not mission.trig.flag[16] then mission.trig.actions[16](); mission.trig.flag[16] = true;end; else mission.trig.flag[16] = false; end;",
+            [17] = "if mission.trig.conditions[17]() then if not mission.trig.flag[17] then mission.trig.actions[17](); mission.trig.flag[17] = true;end; else mission.trig.flag[17] = false; end;",
+            [18] = "if mission.trig.conditions[18]() then if not mission.trig.flag[18] then mission.trig.actions[18](); mission.trig.flag[18] = true;end; else mission.trig.flag[18] = false; end;",
+            [19] = "if mission.trig.conditions[19]() then if not mission.trig.flag[19] then mission.trig.actions[19](); mission.trig.flag[19] = true;end; else mission.trig.flag[19] = false; end;",
+            [20] = "if mission.trig.conditions[20]() then if not mission.trig.flag[20] then mission.trig.actions[20](); mission.trig.flag[20] = true;end; else mission.trig.flag[20] = false; end;",
+            [21] = "if mission.trig.conditions[21]() then if not mission.trig.flag[21] then mission.trig.actions[21](); mission.trig.flag[21] = true;end; else mission.trig.flag[21] = false; end;",
+            [22] = "if mission.trig.conditions[22]() then if not mission.trig.flag[22] then mission.trig.actions[22](); mission.trig.flag[22] = true;end; else mission.trig.flag[22] = false; end;",
+            [23] = "if mission.trig.conditions[23]() then if not mission.trig.flag[23] then mission.trig.actions[23](); mission.trig.flag[23] = true;end; else mission.trig.flag[23] = false; end;",
+            [24] = "if mission.trig.conditions[24]() then mission.trig.actions[24]() end",
         }, -- end of ["func"]
         ["funcStartup"] = {
             [1] = "if mission.trig.conditions[1]() then mission.trig.actions[1]() end",
@@ -34656,9 +35423,9 @@ mission = {
                 ["name"] = "Gudauta Inner",
                 ["properties"] = {
                 }, -- end of ["properties"]
-                ["radius"] = 30480,
-                ["x"] = -196475.8598457,
-                ["y"] = 516379.00006851,
+                ["radius"] = 60960,
+                ["x"] = -181999.01780483,
+                ["y"] = 503175.50012582,
                 ["zoneId"] = 1461,
             }, -- end of [2]
             [3] = {
@@ -34672,9 +35439,9 @@ mission = {
                 ["name"] = "Sukhumi Inner",
                 ["properties"] = {
                 }, -- end of ["properties"]
-                ["radius"] = 30480,
-                ["x"] = -220427.46078064,
-                ["y"] = 564889.16680502,
+                ["radius"] = 60960,
+                ["x"] = -218816.16791248,
+                ["y"] = 566317.64808127,
                 ["zoneId"] = 1462,
             }, -- end of [3]
             [4] = {
@@ -34688,9 +35455,9 @@ mission = {
                 ["name"] = "Kutaisi Inner",
                 ["properties"] = {
                 }, -- end of ["properties"]
-                ["radius"] = 24384,
-                ["x"] = -282511.40322273,
-                ["y"] = 687398.3786181,
+                ["radius"] = 60960,
+                ["x"] = -273144.05057608,
+                ["y"] = 718255.54027766,
                 ["zoneId"] = 1463,
             }, -- end of [4]
             [5] = {
@@ -34704,9 +35471,9 @@ mission = {
                 ["name"] = "Gudauta Outer",
                 ["properties"] = {
                 }, -- end of ["properties"]
-                ["radius"] = 36576,
-                ["x"] = -196555.39316483,
-                ["y"] = 516462.5991956,
+                ["radius"] = 67056,
+                ["x"] = -182700.50508196,
+                ["y"] = 505120.99964403,
                 ["zoneId"] = 1629,
             }, -- end of [5]
             [6] = {
@@ -34720,9 +35487,9 @@ mission = {
                 ["name"] = "Sukhumi Outer",
                 ["properties"] = {
                 }, -- end of ["properties"]
-                ["radius"] = 36576,
-                ["x"] = -220444.54935042,
-                ["y"] = 564938.04775231,
+                ["radius"] = 67056,
+                ["x"] = -218848.13649556,
+                ["y"] = 566389.9119066,
                 ["zoneId"] = 1630,
             }, -- end of [6]
             [7] = {
@@ -34736,11 +35503,43 @@ mission = {
                 ["name"] = "Kutaisi Outer",
                 ["properties"] = {
                 }, -- end of ["properties"]
-                ["radius"] = 36576,
-                ["x"] = -282152.47732794,
-                ["y"] = 687046.78404005,
+                ["radius"] = 67056,
+                ["x"] = -272509.61430933,
+                ["y"] = 718914.15039679,
                 ["zoneId"] = 1631,
             }, -- end of [7]
+            [8] = {
+                ["color"] = {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "Sochi Inner",
+                ["properties"] = {
+                }, -- end of ["properties"]
+                ["radius"] = 243840,
+                ["x"] = 35655.773266883,
+                ["y"] = 371749.92597335,
+                ["zoneId"] = 1797,
+            }, -- end of [8]
+            [9] = {
+                ["color"] = {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "Sochi Outer",
+                ["properties"] = {
+                }, -- end of ["properties"]
+                ["radius"] = 249936,
+                ["x"] = 33512.044497303,
+                ["y"] = 376407.79484082,
+                ["zoneId"] = 1798,
+            }, -- end of [9]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] = {
@@ -34945,11 +35744,17 @@ mission = {
                     ["text"] = "DictKey_ActionText_5054",
                 }, -- end of [27]
                 [28] = {
+                    ["file"] = "ResKey_Action_5325",
+                    ["KeyDict_text"] = "DictKey_ActionText_5326",
+                    ["predicate"] = "a_do_script_file",
+                    ["text"] = "DictKey_ActionText_5326",
+                }, -- end of [28]
+                [29] = {
                     ["KeyDict_text"] = "DictKey_ActionText_3295",
                     ["predicate"] = "a_do_script",
                     ["text"] = "DictKey_ActionText_3295",
-                }, -- end of [28]
-                [29] = {
+                }, -- end of [29]
+                [30] = {
                     ["ai_task"] = {
                         [1] = "",
                         [2] = "",
@@ -34959,8 +35764,8 @@ mission = {
                         [1] = 358,
                         [2] = 1,
                     }, -- end of ["set_ai_task"]
-                }, -- end of [29]
-                [30] = {
+                }, -- end of [30]
+                [31] = {
                     ["ai_task"] = {
                         [1] = "",
                         [2] = "",
@@ -34968,17 +35773,6 @@ mission = {
                     ["flag"] = 9001,
                     ["predicate"] = "a_set_flag_value",
                     ["value"] = 1,
-                }, -- end of [30]
-                [31] = {
-                    ["ai_task"] = {
-                        [1] = "",
-                        [2] = "",
-                    }, -- end of ["ai_task"]
-                    ["predicate"] = "a_set_ai_task",
-                    ["set_ai_task"] = {
-                        [1] = 598,
-                        [2] = 1,
-                    }, -- end of ["set_ai_task"]
                 }, -- end of [31]
                 [32] = {
                     ["ai_task"] = {
@@ -34988,7 +35782,7 @@ mission = {
                     ["predicate"] = "a_set_ai_task",
                     ["set_ai_task"] = {
                         [1] = 598,
-                        [2] = 2,
+                        [2] = 1,
                     }, -- end of ["set_ai_task"]
                 }, -- end of [32]
                 [33] = {
@@ -34996,10 +35790,21 @@ mission = {
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
+                    ["predicate"] = "a_set_ai_task",
+                    ["set_ai_task"] = {
+                        [1] = 598,
+                        [2] = 2,
+                    }, -- end of ["set_ai_task"]
+                }, -- end of [33]
+                [34] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
                     ["flag"] = 9074,
                     ["predicate"] = "a_set_flag_value",
                     ["value"] = 1,
-                }, -- end of [33]
+                }, -- end of [34]
             }, -- end of ["actions"]
             ["colorItem"] = "0x00ff00ff",
             ["comment"] = "Mission Start",
@@ -35467,6 +36272,929 @@ mission = {
             ["rules"] = {
             }, -- end of ["rules"]
         }, -- end of [15]
+        [16] = {
+            ["actions"] = {
+                [1] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["KeyDict_text"] = "DictKey_ActionText_5311",
+                    ["predicate"] = "a_do_script",
+                    ["text"] = "DictKey_ActionText_5311",
+                }, -- end of [1]
+                [2] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["clearview"] = false,
+                    ["coalitionlist"] = "blue",
+                    ["KeyDict_text"] = "DictKey_ActionText_5312",
+                    ["predicate"] = "a_out_text_delay_s",
+                    ["seconds"] = 10,
+                    ["start_delay"] = 10,
+                    ["text"] = "DictKey_ActionText_5312",
+                }, -- end of [2]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x0000ffff",
+            ["comment"] = "QRA Kutaisi BLUE IN",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerFront",
+            ["rules"] = {
+                [1] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 906,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1463,
+                }, -- end of [1]
+                [2] = {
+                    ["predicate"] = "or",
+                }, -- end of [2]
+                [3] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 909,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1463,
+                }, -- end of [3]
+                [4] = {
+                    ["predicate"] = "or",
+                }, -- end of [4]
+                [5] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 907,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1463,
+                }, -- end of [5]
+                [6] = {
+                    ["predicate"] = "or",
+                }, -- end of [6]
+                [7] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 908,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1463,
+                }, -- end of [7]
+                [8] = {
+                    ["predicate"] = "or",
+                }, -- end of [8]
+                [9] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 911,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1463,
+                }, -- end of [9]
+                [10] = {
+                    ["predicate"] = "or",
+                }, -- end of [10]
+                [11] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 913,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1463,
+                }, -- end of [11]
+                [12] = {
+                    ["predicate"] = "or",
+                }, -- end of [12]
+                [13] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 912,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1463,
+                }, -- end of [13]
+                [14] = {
+                    ["predicate"] = "or",
+                }, -- end of [14]
+                [15] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 910,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1463,
+                }, -- end of [15]
+                [16] = {
+                    ["predicate"] = "or",
+                }, -- end of [16]
+                [17] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 602,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1463,
+                }, -- end of [17]
+                [18] = {
+                    ["predicate"] = "or",
+                }, -- end of [18]
+                [19] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 428,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1463,
+                }, -- end of [19]
+                [20] = {
+                    ["predicate"] = "or",
+                }, -- end of [20]
+                [21] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 930,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1463,
+                }, -- end of [21]
+            }, -- end of ["rules"]
+        }, -- end of [16]
+        [17] = {
+            ["actions"] = {
+                [1] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["KeyDict_text"] = "DictKey_ActionText_5313",
+                    ["predicate"] = "a_do_script",
+                    ["text"] = "DictKey_ActionText_5313",
+                }, -- end of [1]
+                [2] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["clearview"] = false,
+                    ["coalitionlist"] = "blue",
+                    ["KeyDict_text"] = "DictKey_ActionText_5314",
+                    ["predicate"] = "a_out_text_delay_s",
+                    ["seconds"] = 10,
+                    ["start_delay"] = 10,
+                    ["text"] = "DictKey_ActionText_5314",
+                }, -- end of [2]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x80ffffff",
+            ["comment"] = "QRA Kutaisi BLUE OUT",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerFront",
+            ["rules"] = {
+                [1] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 906,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1631,
+                }, -- end of [1]
+                [2] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 909,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1631,
+                }, -- end of [2]
+                [3] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 907,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1631,
+                }, -- end of [3]
+                [4] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 908,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1631,
+                }, -- end of [4]
+                [5] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 911,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1631,
+                }, -- end of [5]
+                [6] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 913,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1631,
+                }, -- end of [6]
+                [7] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 912,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1631,
+                }, -- end of [7]
+                [8] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 910,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1631,
+                }, -- end of [8]
+                [9] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 602,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1631,
+                }, -- end of [9]
+                [10] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 428,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1631,
+                }, -- end of [10]
+                [11] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 930,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1631,
+                }, -- end of [11]
+            }, -- end of ["rules"]
+        }, -- end of [17]
+        [18] = {
+            ["actions"] = {
+                [1] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["KeyDict_text"] = "DictKey_ActionText_5332",
+                    ["predicate"] = "a_do_script",
+                    ["text"] = "DictKey_ActionText_5332",
+                }, -- end of [1]
+                [2] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["clearview"] = false,
+                    ["coalitionlist"] = "blue",
+                    ["KeyDict_text"] = "DictKey_ActionText_5333",
+                    ["predicate"] = "a_out_text_delay_s",
+                    ["seconds"] = 10,
+                    ["start_delay"] = 10,
+                    ["text"] = "DictKey_ActionText_5333",
+                }, -- end of [2]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x0000ffff",
+            ["comment"] = "QRA Sukhumi BLUE IN",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerFront",
+            ["rules"] = {
+                [1] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 906,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1462,
+                }, -- end of [1]
+                [2] = {
+                    ["predicate"] = "or",
+                }, -- end of [2]
+                [3] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 909,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1462,
+                }, -- end of [3]
+                [4] = {
+                    ["predicate"] = "or",
+                }, -- end of [4]
+                [5] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 907,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1462,
+                }, -- end of [5]
+                [6] = {
+                    ["predicate"] = "or",
+                }, -- end of [6]
+                [7] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 908,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1462,
+                }, -- end of [7]
+                [8] = {
+                    ["predicate"] = "or",
+                }, -- end of [8]
+                [9] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 911,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1462,
+                }, -- end of [9]
+                [10] = {
+                    ["predicate"] = "or",
+                }, -- end of [10]
+                [11] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 913,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1462,
+                }, -- end of [11]
+                [12] = {
+                    ["predicate"] = "or",
+                }, -- end of [12]
+                [13] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 912,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1462,
+                }, -- end of [13]
+                [14] = {
+                    ["predicate"] = "or",
+                }, -- end of [14]
+                [15] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 910,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1462,
+                }, -- end of [15]
+                [16] = {
+                    ["predicate"] = "or",
+                }, -- end of [16]
+                [17] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 602,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1462,
+                }, -- end of [17]
+                [18] = {
+                    ["predicate"] = "or",
+                }, -- end of [18]
+                [19] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 428,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1462,
+                }, -- end of [19]
+                [20] = {
+                    ["predicate"] = "or",
+                }, -- end of [20]
+                [21] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 930,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1462,
+                }, -- end of [21]
+            }, -- end of ["rules"]
+        }, -- end of [18]
+        [19] = {
+            ["actions"] = {
+                [1] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["KeyDict_text"] = "DictKey_ActionText_5334",
+                    ["predicate"] = "a_do_script",
+                    ["text"] = "DictKey_ActionText_5334",
+                }, -- end of [1]
+                [2] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["clearview"] = false,
+                    ["coalitionlist"] = "blue",
+                    ["KeyDict_text"] = "DictKey_ActionText_5335",
+                    ["predicate"] = "a_out_text_delay_s",
+                    ["seconds"] = 10,
+                    ["start_delay"] = 10,
+                    ["text"] = "DictKey_ActionText_5335",
+                }, -- end of [2]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x80ffffff",
+            ["comment"] = "QRA Sukhumi BLUE OUT",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerFront",
+            ["rules"] = {
+                [1] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 906,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1630,
+                }, -- end of [1]
+                [2] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 909,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1630,
+                }, -- end of [2]
+                [3] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 907,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1630,
+                }, -- end of [3]
+                [4] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 908,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1630,
+                }, -- end of [4]
+                [5] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 911,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1630,
+                }, -- end of [5]
+                [6] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 913,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1630,
+                }, -- end of [6]
+                [7] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 912,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1630,
+                }, -- end of [7]
+                [8] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 910,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1630,
+                }, -- end of [8]
+                [9] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 602,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1630,
+                }, -- end of [9]
+                [10] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 428,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1630,
+                }, -- end of [10]
+                [11] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 930,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1630,
+                }, -- end of [11]
+            }, -- end of ["rules"]
+        }, -- end of [19]
+        [20] = {
+            ["actions"] = {
+                [1] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["KeyDict_text"] = "DictKey_ActionText_5336",
+                    ["predicate"] = "a_do_script",
+                    ["text"] = "DictKey_ActionText_5336",
+                }, -- end of [1]
+                [2] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["clearview"] = false,
+                    ["coalitionlist"] = "blue",
+                    ["KeyDict_text"] = "DictKey_ActionText_5337",
+                    ["predicate"] = "a_out_text_delay_s",
+                    ["seconds"] = 10,
+                    ["start_delay"] = 10,
+                    ["text"] = "DictKey_ActionText_5337",
+                }, -- end of [2]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x0000ffff",
+            ["comment"] = "QRA Gudauta BLUE IN",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerFront",
+            ["rules"] = {
+                [1] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 906,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1461,
+                }, -- end of [1]
+                [2] = {
+                    ["predicate"] = "or",
+                }, -- end of [2]
+                [3] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 909,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1461,
+                }, -- end of [3]
+                [4] = {
+                    ["predicate"] = "or",
+                }, -- end of [4]
+                [5] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 907,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1461,
+                }, -- end of [5]
+                [6] = {
+                    ["predicate"] = "or",
+                }, -- end of [6]
+                [7] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 908,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1461,
+                }, -- end of [7]
+                [8] = {
+                    ["predicate"] = "or",
+                }, -- end of [8]
+                [9] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 911,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1461,
+                }, -- end of [9]
+                [10] = {
+                    ["predicate"] = "or",
+                }, -- end of [10]
+                [11] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 913,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1461,
+                }, -- end of [11]
+                [12] = {
+                    ["predicate"] = "or",
+                }, -- end of [12]
+                [13] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 912,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1461,
+                }, -- end of [13]
+                [14] = {
+                    ["predicate"] = "or",
+                }, -- end of [14]
+                [15] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 910,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1461,
+                }, -- end of [15]
+                [16] = {
+                    ["predicate"] = "or",
+                }, -- end of [16]
+                [17] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 602,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1461,
+                }, -- end of [17]
+                [18] = {
+                    ["predicate"] = "or",
+                }, -- end of [18]
+                [19] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 428,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1461,
+                }, -- end of [19]
+                [20] = {
+                    ["predicate"] = "or",
+                }, -- end of [20]
+                [21] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 930,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1461,
+                }, -- end of [21]
+            }, -- end of ["rules"]
+        }, -- end of [20]
+        [21] = {
+            ["actions"] = {
+                [1] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["KeyDict_text"] = "DictKey_ActionText_5338",
+                    ["predicate"] = "a_do_script",
+                    ["text"] = "DictKey_ActionText_5338",
+                }, -- end of [1]
+                [2] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["clearview"] = false,
+                    ["coalitionlist"] = "blue",
+                    ["KeyDict_text"] = "DictKey_ActionText_5339",
+                    ["predicate"] = "a_out_text_delay_s",
+                    ["seconds"] = 10,
+                    ["start_delay"] = 10,
+                    ["text"] = "DictKey_ActionText_5339",
+                }, -- end of [2]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x80ffffff",
+            ["comment"] = "QRA Gudauta BLUE OUT",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerFront",
+            ["rules"] = {
+                [1] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 906,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1629,
+                }, -- end of [1]
+                [2] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 909,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1629,
+                }, -- end of [2]
+                [3] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 907,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1629,
+                }, -- end of [3]
+                [4] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 908,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1629,
+                }, -- end of [4]
+                [5] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 911,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1629,
+                }, -- end of [5]
+                [6] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 913,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1629,
+                }, -- end of [6]
+                [7] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 912,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1629,
+                }, -- end of [7]
+                [8] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 910,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1629,
+                }, -- end of [8]
+                [9] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 602,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1629,
+                }, -- end of [9]
+                [10] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 428,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1629,
+                }, -- end of [10]
+                [11] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 930,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1629,
+                }, -- end of [11]
+            }, -- end of ["rules"]
+        }, -- end of [21]
+        [22] = {
+            ["actions"] = {
+                [1] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["KeyDict_text"] = "DictKey_ActionText_5340",
+                    ["predicate"] = "a_do_script",
+                    ["text"] = "DictKey_ActionText_5340",
+                }, -- end of [1]
+                [2] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["clearview"] = false,
+                    ["coalitionlist"] = "blue",
+                    ["KeyDict_text"] = "DictKey_ActionText_5341",
+                    ["predicate"] = "a_out_text_delay_s",
+                    ["seconds"] = 10,
+                    ["start_delay"] = 10,
+                    ["text"] = "DictKey_ActionText_5341",
+                }, -- end of [2]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x0000ffff",
+            ["comment"] = "QRA Sochi BLUE IN",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerFront",
+            ["rules"] = {
+                [1] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 906,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1797,
+                }, -- end of [1]
+                [2] = {
+                    ["predicate"] = "or",
+                }, -- end of [2]
+                [3] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 909,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1797,
+                }, -- end of [3]
+                [4] = {
+                    ["predicate"] = "or",
+                }, -- end of [4]
+                [5] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 907,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1797,
+                }, -- end of [5]
+                [6] = {
+                    ["predicate"] = "or",
+                }, -- end of [6]
+                [7] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 908,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1797,
+                }, -- end of [7]
+                [8] = {
+                    ["predicate"] = "or",
+                }, -- end of [8]
+                [9] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 911,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1797,
+                }, -- end of [9]
+                [10] = {
+                    ["predicate"] = "or",
+                }, -- end of [10]
+                [11] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 913,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1797,
+                }, -- end of [11]
+                [12] = {
+                    ["predicate"] = "or",
+                }, -- end of [12]
+                [13] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 912,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1797,
+                }, -- end of [13]
+                [14] = {
+                    ["predicate"] = "or",
+                }, -- end of [14]
+                [15] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 910,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1797,
+                }, -- end of [15]
+                [16] = {
+                    ["predicate"] = "or",
+                }, -- end of [16]
+                [17] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 602,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1797,
+                }, -- end of [17]
+                [18] = {
+                    ["predicate"] = "or",
+                }, -- end of [18]
+                [19] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 428,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1797,
+                }, -- end of [19]
+                [20] = {
+                    ["predicate"] = "or",
+                }, -- end of [20]
+                [21] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 930,
+                    ["predicate"] = "c_part_of_group_in_zone",
+                    ["zone"] = 1797,
+                }, -- end of [21]
+            }, -- end of ["rules"]
+        }, -- end of [22]
+        [23] = {
+            ["actions"] = {
+                [1] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["KeyDict_text"] = "DictKey_ActionText_5342",
+                    ["predicate"] = "a_do_script",
+                    ["text"] = "DictKey_ActionText_5342",
+                }, -- end of [1]
+                [2] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["clearview"] = false,
+                    ["coalitionlist"] = "blue",
+                    ["KeyDict_text"] = "DictKey_ActionText_5343",
+                    ["predicate"] = "a_out_text_delay_s",
+                    ["seconds"] = 10,
+                    ["start_delay"] = 10,
+                    ["text"] = "DictKey_ActionText_5343",
+                }, -- end of [2]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0x80ffffff",
+            ["comment"] = "QRA Sochi BLUE OUT",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerFront",
+            ["rules"] = {
+                [1] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 906,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1798,
+                }, -- end of [1]
+                [2] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 909,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1798,
+                }, -- end of [2]
+                [3] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 907,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1798,
+                }, -- end of [3]
+                [4] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 908,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1798,
+                }, -- end of [4]
+                [5] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 911,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1798,
+                }, -- end of [5]
+                [6] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 913,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1798,
+                }, -- end of [6]
+                [7] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 912,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1798,
+                }, -- end of [7]
+                [8] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 910,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1798,
+                }, -- end of [8]
+                [9] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 602,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1798,
+                }, -- end of [9]
+                [10] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 428,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1798,
+                }, -- end of [10]
+                [11] = {
+                    ["coalitionlist"] = "red",
+                    ["group"] = 930,
+                    ["predicate"] = "c_all_of_group_out_zone",
+                    ["zone"] = 1798,
+                }, -- end of [11]
+            }, -- end of ["rules"]
+        }, -- end of [23]
+        [24] = {
+            ["actions"] = {
+                [1] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
+                    ["KeyDict_text"] = "DictKey_ActionText_5324",
+                    ["predicate"] = "a_do_script",
+                    ["text"] = "DictKey_ActionText_5324",
+                }, -- end of [1]
+            }, -- end of ["actions"]
+            ["colorItem"] = "0xffff00ff",
+            ["comment"] = "QRA Handler",
+            ["eventlist"] = "",
+            ["predicate"] = "triggerContinious",
+            ["rules"] = {
+            }, -- end of ["rules"]
+        }, -- end of [24]
     }, -- end of ["trigrules"]
     ["version"] = 16,
     ["weather"] = {

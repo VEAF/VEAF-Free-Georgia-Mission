@@ -13802,7 +13802,7 @@ mission = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 13.1064,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 993.67527833481,
+                                            ["ETA"] = 1557.779937843,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_5064",
@@ -13825,14 +13825,14 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -207283.47584856,
-                                            ["y"] = 675394.15125319,
+                                            ["x"] = -281508.52642156,
+                                            ["y"] = 647035.11123315,
                                         }, -- end of [5]
                                         [6] = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 13.1064,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 1733.9046545279,
+                                            ["ETA"] = 2297.606061397,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_5065",
@@ -13855,14 +13855,14 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -146033.50367363,
-                                            ["y"] = 592821.38287794,
+                                            ["x"] = -220221.67608505,
+                                            ["y"] = 564559.47786932,
                                         }, -- end of [6]
                                         [7] = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 21,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 2119.739441834,
+                                            ["ETA"] = 2683.3848115557,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_5066",
@@ -13885,14 +13885,14 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -122607.94837013,
-                                            ["y"] = 544624.54920123,
+                                            ["x"] = -196945.01494423,
+                                            ["y"] = 516299.20043735,
                                         }, -- end of [7]
                                         [8] = {
                                             ["action"] = "Turning Point",
                                             ["alt"] = 0,
                                             ["alt_type"] = "BARO",
-                                            ["ETA"] = 2870.6558317517,
+                                            ["ETA"] = 3429.1068910794,
                                             ["ETA_locked"] = false,
                                             ["formation_template"] = "",
                                             ["name"] = "DictKey_WptName_5067",
@@ -13915,8 +13915,8 @@ mission = {
                                                 }, -- end of ["params"]
                                             }, -- end of ["task"]
                                             ["type"] = "Turning Point",
-                                            ["x"] = -192102.02301059,
-                                            ["y"] = 622392.1526461,
+                                            ["x"] = -265378.39869824,
+                                            ["y"] = 594043.2486477,
                                         }, -- end of [8]
                                     }, -- end of ["points"]
                                     ["routeRelativeTOT"] = true,
@@ -28078,7 +28078,7 @@ mission = {
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1752693,
+    ["currentKey"] = 1753832,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -35234,9 +35234,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -141014.02657998,
-        ["centerY"] = 569201.64500575,
-        ["zoom"] = 749716.08333,
+        ["centerX"] = -280506.33327523,
+        ["centerY"] = 609588.77857459,
+        ["zoom"] = 437650.18816669,
     }, -- end of ["map"]
     ["maxDictId"] = 5343,
     ["pictureFileNameB"] = {

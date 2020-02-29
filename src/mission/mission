@@ -28078,7 +28078,7 @@ mission = {
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1753832,
+    ["currentKey"] = 1757249,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -35234,9 +35234,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -280506.33327523,
-        ["centerY"] = 609588.77857459,
-        ["zoom"] = 437650.18816669,
+        ["centerX"] = -231581.37262062,
+        ["centerY"] = 608690.6404812,
+        ["zoom"] = 799209.73708149,
     }, -- end of ["map"]
     ["maxDictId"] = 5343,
     ["pictureFileNameB"] = {
@@ -35540,6 +35540,134 @@ mission = {
                 ["y"] = 376407.79484082,
                 ["zoneId"] = 1798,
             }, -- end of [9]
+            [10] = {
+                ["color"] = {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.14901960784314,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "pickzone1",
+                ["properties"] = {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -317921.67428557,
+                ["y"] = 635991.42403411,
+                ["zoneId"] = 1964,
+            }, -- end of [10]
+            [11] = {
+                ["color"] = {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "pickzone2",
+                ["properties"] = {
+                }, -- end of ["properties"]
+                ["radius"] = 182.88,
+                ["x"] = -303470.37183244,
+                ["y"] = 657191.00303355,
+                ["zoneId"] = 1965,
+            }, -- end of [11]
+            [12] = {
+                ["color"] = {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "pickzone3",
+                ["properties"] = {
+                }, -- end of ["properties"]
+                ["radius"] = 1676.4,
+                ["x"] = -284936.10677912,
+                ["y"] = 683939.82559575,
+                ["zoneId"] = 1966,
+            }, -- end of [12]
+            [13] = {
+                ["color"] = {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "pickzone4",
+                ["properties"] = {
+                }, -- end of ["properties"]
+                ["radius"] = 1219.2,
+                ["x"] = -281571.20863105,
+                ["y"] = 647241.14554578,
+                ["zoneId"] = 1967,
+            }, -- end of [13]
+            [14] = {
+                ["color"] = {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "pickzone5",
+                ["properties"] = {
+                }, -- end of ["properties"]
+                ["radius"] = 167.64,
+                ["x"] = -227432.40503789,
+                ["y"] = 596386.97223908,
+                ["zoneId"] = 1968,
+            }, -- end of [14]
+            [15] = {
+                ["color"] = {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "pickzone6",
+                ["properties"] = {
+                }, -- end of ["properties"]
+                ["radius"] = 167.64,
+                ["x"] = -196535.9085549,
+                ["y"] = 548909.7792489,
+                ["zoneId"] = 1969,
+            }, -- end of [15]
+            [16] = {
+                ["color"] = {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "pickzone7",
+                ["properties"] = {
+                }, -- end of ["properties"]
+                ["radius"] = 762,
+                ["x"] = -219950.15541028,
+                ["y"] = 563783.49323232,
+                ["zoneId"] = 1970,
+            }, -- end of [16]
+            [17] = {
+                ["color"] = {
+                    [1] = 1,
+                    [2] = 1,
+                    [3] = 1,
+                    [4] = 0.15,
+                }, -- end of ["color"]
+                ["hidden"] = false,
+                ["name"] = "pickzone8",
+                ["properties"] = {
+                }, -- end of ["properties"]
+                ["radius"] = 1371.6,
+                ["x"] = -196693.89628992,
+                ["y"] = 516366.69535951,
+                ["zoneId"] = 1971,
+            }, -- end of [17]
         }, -- end of ["zones"]
     }, -- end of ["triggers"]
     ["trigrules"] = {

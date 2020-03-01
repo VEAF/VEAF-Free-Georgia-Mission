@@ -16842,6 +16842,421 @@ mission = {
                                 ["x"] = -356138.15204575,
                                 ["y"] = 616973.93590255,
                             }, -- end of [1]
+                            [2] = {
+                                ["groupId"] = 931,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_5344",
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 24,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5346",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -316860.57975092,
+                                            ["y"] = 635529.65239462,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] = {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["tasks"] = {
+                                    [1] = {
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 1,
+                                        ["params"] = {
+                                            ["action"] = {
+                                                ["id"] = "SetImmortal",
+                                                ["params"] = {
+                                                    ["value"] = true,
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 2,
+                                        ["params"] = {
+                                            ["action"] = {
+                                                ["id"] = "SetInvisible",
+                                                ["params"] = {
+                                                    ["value"] = true,
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [2]
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_5345",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] = {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Soldier M4",
+                                        ["unitId"] = 2218,
+                                        ["x"] = -316860.57975092,
+                                        ["y"] = 635529.65239462,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -316860.57975092,
+                                ["y"] = 635529.65239462,
+                            }, -- end of [2]
+                            [3] = {
+                                ["groupId"] = 932,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_5347",
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 24,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5349",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -284287.54410302,
+                                            ["y"] = 682815.10937389,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] = {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["tasks"] = {
+                                    [1] = {
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 1,
+                                        ["params"] = {
+                                            ["action"] = {
+                                                ["id"] = "SetImmortal",
+                                                ["params"] = {
+                                                    ["value"] = true,
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 2,
+                                        ["params"] = {
+                                            ["action"] = {
+                                                ["id"] = "SetInvisible",
+                                                ["params"] = {
+                                                    ["value"] = true,
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [2]
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_5348",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] = {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Soldier M4",
+                                        ["unitId"] = 2219,
+                                        ["x"] = -284287.54410302,
+                                        ["y"] = 682815.10937389,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -284287.54410302,
+                                ["y"] = 682815.10937389,
+                            }, -- end of [3]
+                            [4] = {
+                                ["groupId"] = 933,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_5350",
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 24,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5352",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -282472.84736954,
+                                            ["y"] = 647911.43586869,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] = {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["tasks"] = {
+                                    [1] = {
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 1,
+                                        ["params"] = {
+                                            ["action"] = {
+                                                ["id"] = "SetImmortal",
+                                                ["params"] = {
+                                                    ["value"] = true,
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 2,
+                                        ["params"] = {
+                                            ["action"] = {
+                                                ["id"] = "SetInvisible",
+                                                ["params"] = {
+                                                    ["value"] = true,
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [2]
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_5351",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] = {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Soldier M4",
+                                        ["unitId"] = 2220,
+                                        ["x"] = -282472.84736954,
+                                        ["y"] = 647911.43586869,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -282472.84736954,
+                                ["y"] = 647911.43586869,
+                            }, -- end of [4]
+                            [5] = {
+                                ["groupId"] = 934,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_5353",
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 24,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5355",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -220752.3663396,
+                                            ["y"] = 563100.69565188,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] = {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["tasks"] = {
+                                    [1] = {
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 1,
+                                        ["params"] = {
+                                            ["action"] = {
+                                                ["id"] = "SetImmortal",
+                                                ["params"] = {
+                                                    ["value"] = true,
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 2,
+                                        ["params"] = {
+                                            ["action"] = {
+                                                ["id"] = "SetInvisible",
+                                                ["params"] = {
+                                                    ["value"] = true,
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [2]
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_5354",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] = {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Soldier M4",
+                                        ["unitId"] = 2221,
+                                        ["x"] = -220752.3663396,
+                                        ["y"] = 563100.69565188,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -220752.3663396,
+                                ["y"] = 563100.69565188,
+                            }, -- end of [5]
+                            [6] = {
+                                ["groupId"] = 935,
+                                ["hidden"] = false,
+                                ["name"] = "DictKey_GroupName_5356",
+                                ["route"] = {
+                                    ["points"] = {
+                                        [1] = {
+                                            ["action"] = "Off Road",
+                                            ["alt"] = 24,
+                                            ["alt_type"] = "BARO",
+                                            ["ETA"] = 0,
+                                            ["ETA_locked"] = true,
+                                            ["formation_template"] = "",
+                                            ["name"] = "DictKey_WptName_5358",
+                                            ["speed"] = 5.5555555555556,
+                                            ["speed_locked"] = true,
+                                            ["task"] = {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = {
+                                                    ["tasks"] = {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["type"] = "Turning Point",
+                                            ["x"] = -197875.72969747,
+                                            ["y"] = 517968.26687353,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                    ["spans"] = {
+                                    }, -- end of ["spans"]
+                                }, -- end of ["route"]
+                                ["start_time"] = 0,
+                                ["task"] = "Ground Nothing",
+                                ["tasks"] = {
+                                    [1] = {
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 1,
+                                        ["params"] = {
+                                            ["action"] = {
+                                                ["id"] = "SetImmortal",
+                                                ["params"] = {
+                                                    ["value"] = true,
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [1]
+                                    [2] = {
+                                        ["auto"] = false,
+                                        ["enabled"] = true,
+                                        ["id"] = "WrappedAction",
+                                        ["number"] = 2,
+                                        ["params"] = {
+                                            ["action"] = {
+                                                ["id"] = "SetInvisible",
+                                                ["params"] = {
+                                                    ["value"] = true,
+                                                }, -- end of ["params"]
+                                            }, -- end of ["action"]
+                                        }, -- end of ["params"]
+                                    }, -- end of [2]
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["units"] = {
+                                    [1] = {
+                                        ["heading"] = 0,
+                                        ["name"] = "DictKey_UnitName_5357",
+                                        ["playerCanDrive"] = false,
+                                        ["skill"] = "Average",
+                                        ["transportable"] = {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["type"] = "Soldier M4",
+                                        ["unitId"] = 2222,
+                                        ["x"] = -197875.72969747,
+                                        ["y"] = 517968.26687353,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["visible"] = false,
+                                ["x"] = -197875.72969747,
+                                ["y"] = 517968.26687353,
+                            }, -- end of [6]
                         }, -- end of ["group"]
                     }, -- end of ["vehicle"]
                 }, -- end of [2]
@@ -23734,7 +24149,7 @@ mission = {
                                         ["transportable"] = {
                                             ["randomTransportable"] = false,
                                         }, -- end of ["transportable"]
-                                        ["type"] = "Boman",
+                                        ["type"] = "Grad_FDDM",
                                         ["unitId"] = 859,
                                         ["x"] = -577974.14314286,
                                         ["y"] = -539282.884,
@@ -28078,7 +28493,7 @@ mission = {
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1757249,
+    ["currentKey"] = 1758422,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -35234,11 +35649,11 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -231581.37262062,
-        ["centerY"] = 608690.6404812,
-        ["zoom"] = 799209.73708149,
+        ["centerX"] = -195579.85451988,
+        ["centerY"] = 517087.17032477,
+        ["zoom"] = 20400.821105733,
     }, -- end of ["map"]
-    ["maxDictId"] = 5343,
+    ["maxDictId"] = 5358,
     ["pictureFileNameB"] = {
         [1] = "ResKey_ImageBriefing_2136",
     }, -- end of ["pictureFileNameB"]

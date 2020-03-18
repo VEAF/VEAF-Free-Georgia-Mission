@@ -13046,6 +13046,7 @@ mission = {
                                             ["name"] = "Ford11",
                                         }, -- end of ["callsign"]
                                         ["heading"] = -1.2990021044101,
+                                        ["livery_id"] = "2003 Tigermeet",
                                         ["name"] = "DictKey_UnitName_5032",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "7",
@@ -13181,6 +13182,7 @@ mission = {
                                             ["name"] = "Ford12",
                                         }, -- end of ["callsign"]
                                         ["heading"] = -1.2990021044101,
+                                        ["livery_id"] = "2003 Tigermeet",
                                         ["name"] = "DictKey_UnitName_5033",
                                         ["onboard_num"] = "1042",
                                         ["parking"] = "5",
@@ -15167,6 +15169,7 @@ mission = {
                                             ["name"] = "Dodge21",
                                         }, -- end of ["callsign"]
                                         ["heading"] = -2.7015514352154,
+                                        ["livery_id"] = "2003 Tigermeet",
                                         ["name"] = "DictKey_UnitName_5082",
                                         ["onboard_num"] = "010",
                                         ["parking"] = "32",
@@ -15302,6 +15305,7 @@ mission = {
                                             ["name"] = "Dodge22",
                                         }, -- end of ["callsign"]
                                         ["heading"] = -2.7015514352154,
+                                        ["livery_id"] = "2003 Tigermeet",
                                         ["name"] = "DictKey_UnitName_5083",
                                         ["onboard_num"] = "1042",
                                         ["parking"] = "33",
@@ -15437,6 +15441,7 @@ mission = {
                                             ["name"] = "Dodge23",
                                         }, -- end of ["callsign"]
                                         ["heading"] = -2.7015514352154,
+                                        ["livery_id"] = "2003 Tigermeet",
                                         ["name"] = "DictKey_UnitName_5084",
                                         ["onboard_num"] = "1045",
                                         ["parking"] = "34",
@@ -15572,6 +15577,7 @@ mission = {
                                             ["name"] = "Dodge24",
                                         }, -- end of ["callsign"]
                                         ["heading"] = -2.7015514352154,
+                                        ["livery_id"] = "2003 Tigermeet",
                                         ["name"] = "DictKey_UnitName_5085",
                                         ["onboard_num"] = "1046",
                                         ["parking"] = "35",
@@ -24223,19 +24229,6 @@ mission = {
                                     }, -- end of [4]
                                     [5] = {
                                         ["heading"] = 0,
-                                        ["name"] = "DictKey_UnitName_1846",
-                                        ["playerCanDrive"] = false,
-                                        ["skill"] = "Average",
-                                        ["transportable"] = {
-                                            ["randomTransportable"] = false,
-                                        }, -- end of ["transportable"]
-                                        ["type"] = "Grad_FDDM",
-                                        ["unitId"] = 859,
-                                        ["x"] = -577974.14314286,
-                                        ["y"] = -539282.884,
-                                    }, -- end of [5]
-                                    [6] = {
-                                        ["heading"] = 0,
                                         ["name"] = "DictKey_UnitName_1847",
                                         ["playerCanDrive"] = false,
                                         ["skill"] = "Average",
@@ -24246,8 +24239,8 @@ mission = {
                                         ["unitId"] = 860,
                                         ["x"] = -578014.14314286,
                                         ["y"] = -539282.884,
-                                    }, -- end of [6]
-                                    [7] = {
+                                    }, -- end of [5]
+                                    [6] = {
                                         ["heading"] = 0,
                                         ["name"] = "DictKey_UnitName_1848",
                                         ["playerCanDrive"] = false,
@@ -24259,8 +24252,8 @@ mission = {
                                         ["unitId"] = 861,
                                         ["x"] = -578054.14314286,
                                         ["y"] = -539282.884,
-                                    }, -- end of [7]
-                                    [8] = {
+                                    }, -- end of [6]
+                                    [7] = {
                                         ["heading"] = 0,
                                         ["name"] = "DictKey_UnitName_1849",
                                         ["playerCanDrive"] = false,
@@ -24272,8 +24265,8 @@ mission = {
                                         ["unitId"] = 862,
                                         ["x"] = -578094.14314286,
                                         ["y"] = -539282.884,
-                                    }, -- end of [8]
-                                    [9] = {
+                                    }, -- end of [7]
+                                    [8] = {
                                         ["heading"] = 0,
                                         ["name"] = "DictKey_UnitName_1850",
                                         ["playerCanDrive"] = false,
@@ -24285,8 +24278,8 @@ mission = {
                                         ["unitId"] = 863,
                                         ["x"] = -578134.14314286,
                                         ["y"] = -539282.884,
-                                    }, -- end of [9]
-                                    [10] = {
+                                    }, -- end of [8]
+                                    [9] = {
                                         ["heading"] = 0,
                                         ["name"] = "DictKey_UnitName_1851",
                                         ["playerCanDrive"] = false,
@@ -24298,8 +24291,8 @@ mission = {
                                         ["unitId"] = 864,
                                         ["x"] = -578174.14314286,
                                         ["y"] = -539282.884,
-                                    }, -- end of [10]
-                                    [11] = {
+                                    }, -- end of [9]
+                                    [10] = {
                                         ["heading"] = 0,
                                         ["name"] = "DictKey_UnitName_1852",
                                         ["playerCanDrive"] = false,
@@ -24311,8 +24304,8 @@ mission = {
                                         ["unitId"] = 865,
                                         ["x"] = -578214.14314286,
                                         ["y"] = -539282.884,
-                                    }, -- end of [11]
-                                    [12] = {
+                                    }, -- end of [10]
+                                    [11] = {
                                         ["heading"] = 0,
                                         ["name"] = "DictKey_UnitName_1853",
                                         ["playerCanDrive"] = false,
@@ -24324,8 +24317,8 @@ mission = {
                                         ["unitId"] = 866,
                                         ["x"] = -578254.14314286,
                                         ["y"] = -539282.884,
-                                    }, -- end of [12]
-                                    [13] = {
+                                    }, -- end of [11]
+                                    [12] = {
                                         ["heading"] = 0,
                                         ["name"] = "DictKey_UnitName_1854",
                                         ["playerCanDrive"] = false,
@@ -24337,7 +24330,7 @@ mission = {
                                         ["unitId"] = 867,
                                         ["x"] = -578294.14314286,
                                         ["y"] = -539282.884,
-                                    }, -- end of [13]
+                                    }, -- end of [12]
                                 }, -- end of ["units"]
                                 ["visible"] = false,
                                 ["x"] = -577814.14314286,
@@ -29101,7 +29094,7 @@ mission = {
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1763184,
+    ["currentKey"] = 1764374,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -36261,7 +36254,7 @@ mission = {
         ["centerY"] = 586122.39914154,
         ["zoom"] = 637102.19961441,
     }, -- end of ["map"]
-    ["maxDictId"] = 5382,
+    ["maxDictId"] = 5384,
     ["pictureFileNameB"] = {
         [1] = "ResKey_ImageBriefing_2136",
     }, -- end of ["pictureFileNameB"]
@@ -36299,11 +36292,11 @@ mission = {
         ["total"] = 0,
     }, -- end of ["result"]
     ["sortie"] = "DictKey_sortie_4",
-    ["start_time"] = 49000,
+    ["start_time"] = 61200,
     ["theatre"] = "Caucasus",
     ["trig"] = {
         ["actions"] = {
-            [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_3480\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3308\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3353\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_3354\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_2612\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2526\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2607\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3265\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2617\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3269\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2608\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2609\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2610\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2546\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2621\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2622\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2623\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2628\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2629\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3623\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3624\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4550\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4552\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4574\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4585\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4576\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_5053\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_5325\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_3295\"));a_set_ai_task(358, 1);a_set_flag_value(9001, 1);a_set_ai_task(598, 1);a_set_ai_task(598, 2);a_set_flag_value(9074, 1);",
+            [1] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_3480\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3308\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3353\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_3354\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_2612\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2526\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2607\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3265\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2617\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3269\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2608\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2609\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2610\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2546\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2621\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2622\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2623\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2628\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_2629\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3623\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_3624\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4550\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4552\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4574\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_5383\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4585\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_4576\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_5053\"));a_do_script_file(getValueResourceByKey(\"ResKey_Action_5325\"));a_do_script(getValueDictByKey(\"DictKey_ActionText_3295\"));a_set_ai_task(358, 1);a_set_flag_value(9001, 1);a_set_ai_task(598, 1);a_set_ai_task(598, 2);a_set_flag_value(9074, 1);",
             [2] = "a_do_script_file(getValueResourceByKey(\"ResKey_Action_5110\")); mission.trig.func[2]=nil;",
             [3] = "a_set_ai_task(598, 1);a_set_ai_task(598, 2);a_set_flag_value(9074, 0);a_set_flag_value(9074, 1);",
             [4] = "a_set_ai_task(358, 1);a_set_flag_value(9001, 0);a_set_flag_value(9001, 1);",
@@ -36877,35 +36870,41 @@ mission = {
                     ["text"] = "DictKey_ActionText_4575",
                 }, -- end of [24]
                 [25] = {
+                    ["file"] = "ResKey_Action_5383",
+                    ["KeyDict_text"] = "DictKey_ActionText_5384",
+                    ["predicate"] = "a_do_script_file",
+                    ["text"] = "DictKey_ActionText_5384",
+                }, -- end of [25]
+                [26] = {
                     ["file"] = "ResKey_Action_4585",
                     ["KeyDict_text"] = "DictKey_ActionText_4586",
                     ["predicate"] = "a_do_script_file",
                     ["text"] = "DictKey_ActionText_4586",
-                }, -- end of [25]
-                [26] = {
+                }, -- end of [26]
+                [27] = {
                     ["file"] = "ResKey_Action_4576",
                     ["KeyDict_text"] = "DictKey_ActionText_4577",
                     ["predicate"] = "a_do_script_file",
                     ["text"] = "DictKey_ActionText_4577",
-                }, -- end of [26]
-                [27] = {
+                }, -- end of [27]
+                [28] = {
                     ["file"] = "ResKey_Action_5053",
                     ["KeyDict_text"] = "DictKey_ActionText_5054",
                     ["predicate"] = "a_do_script_file",
                     ["text"] = "DictKey_ActionText_5054",
-                }, -- end of [27]
-                [28] = {
+                }, -- end of [28]
+                [29] = {
                     ["file"] = "ResKey_Action_5325",
                     ["KeyDict_text"] = "DictKey_ActionText_5326",
                     ["predicate"] = "a_do_script_file",
                     ["text"] = "DictKey_ActionText_5326",
-                }, -- end of [28]
-                [29] = {
+                }, -- end of [29]
+                [30] = {
                     ["KeyDict_text"] = "DictKey_ActionText_3295",
                     ["predicate"] = "a_do_script",
                     ["text"] = "DictKey_ActionText_3295",
-                }, -- end of [29]
-                [30] = {
+                }, -- end of [30]
+                [31] = {
                     ["ai_task"] = {
                         [1] = "",
                         [2] = "",
@@ -36915,8 +36914,8 @@ mission = {
                         [1] = 358,
                         [2] = 1,
                     }, -- end of ["set_ai_task"]
-                }, -- end of [30]
-                [31] = {
+                }, -- end of [31]
+                [32] = {
                     ["ai_task"] = {
                         [1] = "",
                         [2] = "",
@@ -36924,17 +36923,6 @@ mission = {
                     ["flag"] = 9001,
                     ["predicate"] = "a_set_flag_value",
                     ["value"] = 1,
-                }, -- end of [31]
-                [32] = {
-                    ["ai_task"] = {
-                        [1] = "",
-                        [2] = "",
-                    }, -- end of ["ai_task"]
-                    ["predicate"] = "a_set_ai_task",
-                    ["set_ai_task"] = {
-                        [1] = 598,
-                        [2] = 1,
-                    }, -- end of ["set_ai_task"]
                 }, -- end of [32]
                 [33] = {
                     ["ai_task"] = {
@@ -36944,7 +36932,7 @@ mission = {
                     ["predicate"] = "a_set_ai_task",
                     ["set_ai_task"] = {
                         [1] = 598,
-                        [2] = 2,
+                        [2] = 1,
                     }, -- end of ["set_ai_task"]
                 }, -- end of [33]
                 [34] = {
@@ -36952,10 +36940,21 @@ mission = {
                         [1] = "",
                         [2] = "",
                     }, -- end of ["ai_task"]
+                    ["predicate"] = "a_set_ai_task",
+                    ["set_ai_task"] = {
+                        [1] = 598,
+                        [2] = 2,
+                    }, -- end of ["set_ai_task"]
+                }, -- end of [34]
+                [35] = {
+                    ["ai_task"] = {
+                        [1] = "",
+                        [2] = "",
+                    }, -- end of ["ai_task"]
                     ["flag"] = 9074,
                     ["predicate"] = "a_set_flag_value",
                     ["value"] = 1,
-                }, -- end of [34]
+                }, -- end of [35]
             }, -- end of ["actions"]
             ["colorItem"] = "0x00ff00ff",
             ["comment"] = "Mission Start",
@@ -38352,8 +38351,8 @@ mission = {
         ["atmosphere_type"] = 0,
         ["clouds"] = {
             ["base"] = 3200,
-            ["density"] = 5,
-            ["iprecptns"] = 0,
+            ["density"] = 8,
+            ["iprecptns"] = 1,
             ["thickness"] = 830,
         }, -- end of ["clouds"]
         ["cyclones"] = {

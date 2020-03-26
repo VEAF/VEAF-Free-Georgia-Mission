@@ -10489,7 +10489,7 @@ mission = {
                             }, -- end of [5]
                             [6] = {
                                 ["communication"] = true,
-                                ["frequency"] = 282,
+                                ["frequency"] = 282.2,
                                 ["groupId"] = 606,
                                 ["hidden"] = false,
                                 ["modulation"] = 0,
@@ -29352,7 +29352,7 @@ mission = {
             [11] = 47,
         }, -- end of ["red"]
     }, -- end of ["coalitions"]
-    ["currentKey"] = 1766769,
+    ["currentKey"] = 1769161,
     ["date"] = {
         ["Day"] = 23,
         ["Month"] = 5,
@@ -36508,9 +36508,9 @@ mission = {
         }, -- end of ["roles"]
     }, -- end of ["groundControl"]
     ["map"] = {
-        ["centerX"] = -326403.2719762,
-        ["centerY"] = 551474.99054104,
-        ["zoom"] = 3823.270143441,
+        ["centerX"] = -347871.52461331,
+        ["centerY"] = 588545.64891728,
+        ["zoom"] = 418052.3922843,
     }, -- end of ["map"]
     ["maxDictId"] = 5384,
     ["pictureFileNameB"] = {

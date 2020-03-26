@@ -19,12 +19,12 @@ veafAssets.logInfo("Loading configuration")
 
 veafAssets.Assets = {
     -- list the assets common to all missions below
-    {sort=1, name="CSG-01 Tarawa", description="Tarawa (LHA)", information="Tacan 1X\nDatalink 310 Mhz\nVHF 304 Mhz"},  
-    {sort=2, name="CSG-74 Stennis", description="Stennis (CVN)", information="Tacan 74X\nDatalink 321 Mhz\nICLS 1\nVHF 305 Mhz"},  
-    {sort=3, name="Arco", description="Arco (KC-135)", information="Tacan 11Y\nVHF 130.4 Mhz\nZone OUEST", linked="Arco escort"}, 
-    {sort=4, name="Texaco", description="Texaco (KC-135 MPRS)", information="Tacan 13Y\nVHF 130.2 Mhz\nZone OUEST", linked="Texaco escort"},  
-    {sort=5, name="Shell", description="Shell (KC-135 MPRS)", information="Tacan 12Y\nVHF 130.3 Mhz\nZone EST", linked="Shell escort"},  
-    {sort=6, name="A1-Overlord", description="Overlord (E-2D)", information="Datalink 315.3 Mhz\nUHF 111.11 Mhz"},  
+    {sort=1, name="CSG-01 Tarawa", description="Tarawa (LHA)", information="Tacan 1X\nDatalink 310 Mhz\nUHF 304 Mhz - Preset N/A"},  
+    {sort=2, name="CSG-74 Stennis", description="Stennis (CVN)", information="Tacan 74X\nDatalink 321 Mhz\nICLS 1\nUHF 305 Mhz - Preset CH10"},  
+    {sort=3, name="Arco", description="Arco (KC-135)", information="Tacan 11Y\nUHF 290.7 Mhz\nPreset CH20", linked="Arco escort"}, 
+    {sort=4, name="Texaco", description="Texaco (KC-135 MPRS)", information="Tacan 13Y\nUHF 290.3 Mhz - Preset CH18", linked="Texaco escort"},  
+    {sort=5, name="Shell", description="Shell (KC-135 MPRS)", information="Tacan 12Y\nUHF 290.1 - Preset CH17", linked="Shell escort"},  
+    {sort=6, name="Overlord", description="Overlord (E-2D)", information="Datalink 315.3 Mhz\nUHF 282.2 Mhz - Preset CH13"},  
     -- {sort=6, name="T5-Petrolsky", description="900 (IL-78M, RED)", information="VHF 267 Mhz", linked="T5-Petrolsky escort"},  
     -- {sort=7, name="CVN-74 Stennis S3B-Tanker", description="Texaco-7 (S3-B)", information="Tacan 75Y\nVHF 133.750 Mhz\nZone PA"},  
     -- {sort=8, name="D1-Reaper", description="Colt-1 FAC (MQ-9)", information="VHF 253 Mhz", jtac=1688},  

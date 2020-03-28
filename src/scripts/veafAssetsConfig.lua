@@ -19,7 +19,7 @@ veafAssets.logInfo("Loading configuration")
 
 veafAssets.Assets = {
     -- list the assets common to all missions below
-    {sort=1, name="CSG-01 Tarawa", description="Tarawa (LHA)", information="Tacan 1X\nDatalink 310 Mhz\nUHF 304 Mhz - Preset N/A"},  
+    {sort=1, name="CSG-01 Tarawa", description="Tarawa (LHA)", information="Tacan 1X\nDatalink 310 Mhz\nUHF 304 Mhz - Preset CH19"},  
     {sort=2, name="CSG-74 Stennis", description="Stennis (CVN)", information="Tacan 74X\nDatalink 321 Mhz\nICLS 1\nUHF 305 Mhz - Preset CH10"},  
     {sort=3, name="Arco", description="Arco (KC-135)", information="Tacan 11Y\nUHF 290.7 Mhz\nPreset CH20", linked="Arco escort"}, 
     {sort=4, name="Texaco", description="Texaco (KC-135 MPRS)", information="Tacan 13Y\nUHF 290.3 Mhz - Preset CH18", linked="Texaco escort"},  
